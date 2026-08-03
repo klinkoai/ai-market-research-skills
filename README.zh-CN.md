@@ -12,18 +12,18 @@ Klinko Skills 把不同的市场问题转化为聚焦、可执行的 Agent 工�
 
 | Skill | 能做什么 |
 | --- | --- |
-| **Audience Finder** | 发现并排序最值得优先服务的目标圈层。 |
-| **Niche Audience Discovery** | 找到容易被忽略的细分人群、新兴圈层和未被满足的社群。 |
-| **Audience Comparator** | 从需求、动机、机会和可触达性比较多个候选圈层。 |
-| **Market Opportunity Analyst** | 排序市场机会，判断什么最值得优先验证。 |
-| **Startup Idea Validator** | 根据用户需求、市场缺口和购买动机验证创业想法。 |
-| **Early Adopter Finder** | 找到最可能尝试、采用并主动推荐新产品的人群。 |
-| **Buyer Persona Builder** | 围绕需求、触发因素、顾虑和行为构建买家画像。 |
-| **Customer Pain Point Analyst** | 发现反复出现的客户问题，并判断哪些问题正在形成真实需求。 |
-| **Positioning Strategist** | 把市场缺口和消费者语言转化为更清晰的定位与信息表达。 |
-| **Content Strategy Builder** | 根据圈层需求排序内容主题、角度和形式。 |
-| **Creative Brief Generator** | 把圈层洞察转化为清晰、可执行的创意简报。 |
-| **Viral Pattern Analyzer** | 识别高表现和快速传播内容背后可复用的模式。 |
+| **[Audience Finder](https://github.com/klinkoai/klinko-audience-finder)** | 发现并排序最值得优先服务的目标圈层。 |
+| **[Niche Audience Discovery](https://github.com/klinkoai/klinko-niche-audience-discovery)** | 找到容易被忽略的细分人群、新兴圈层和未被满足的社群。 |
+| **[Audience Comparator](https://github.com/klinkoai/klinko-audience-comparator)** | 从需求、动机、机会和可触达性比较多个候选圈层。 |
+| **[Market Opportunity Analyst](https://github.com/klinkoai/klinko-market-opportunity-analyst)** | 排序市场机会，判断什么最值得优先验证。 |
+| **[Startup Idea Validator](https://github.com/klinkoai/klinko-startup-idea-validator)** | 根据用户需求、市场缺口和购买动机验证创业想法。 |
+| **[Early Adopter Finder](https://github.com/klinkoai/klinko-early-adopter-finder)** | 找到最可能尝试、采用并主动推荐新产品的人群。 |
+| **[Buyer Persona Builder](https://github.com/klinkoai/klinko-buyer-persona-builder)** | 围绕需求、触发因素、顾虑和行为构建买家画像。 |
+| **[Customer Pain Point Analyst](https://github.com/klinkoai/klinko-customer-pain-point-analyst)** | 发现反复出现的客户问题，并判断哪些问题正在形成真实需求。 |
+| **[Positioning Strategist](https://github.com/klinkoai/klinko-positioning-strategist)** | 把市场缺口和消费者语言转化为更清晰的定位与信息表达。 |
+| **[Content Strategy Builder](https://github.com/klinkoai/klinko-content-strategy-builder)** | 根据圈层需求排序内容主题、角度和形式。 |
+| **[Creative Brief Generator](https://github.com/klinkoai/klinko-creative-brief-generator)** | 把圈层洞察转化为清晰、可执行的创意简报。 |
+| **[Viral Pattern Analyzer](https://github.com/klinkoai/klinko-viral-pattern-analyzer)** | 识别高表现和快速传播内容背后可复用的模式。 |
 
 ## 支持平台
 
@@ -51,4 +51,3 @@ Klinko Skills 把不同的市场问题转化为聚焦、可执行的 Agent 工�
 ## 联系我们
 
 [business@klinko.ai](mailto:business@klinko.ai)
-
