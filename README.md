@@ -12,18 +12,18 @@ Klinko Skills turn different market questions into focused Agent workflows. Ever
 
 | Skill | What it does |
 | --- | --- |
-| **Audience Finder** | Finds and prioritizes the audience segments most worth serving. |
-| **Niche Audience Discovery** | Uncovers overlooked niches, emerging segments, and underserved communities. |
-| **Audience Comparator** | Compares candidate audiences by demand, motivation, opportunity, and reachability. |
-| **Market Opportunity Analyst** | Ranks market opportunities and recommends what deserves validation first. |
-| **Startup Idea Validator** | Tests a startup idea against audience needs, market gaps, and buying motivation. |
-| **Early Adopter Finder** | Identifies the people most likely to try, adopt, and advocate for a new offer. |
-| **Buyer Persona Builder** | Builds evidence-led personas around needs, triggers, objections, and behavior. |
-| **Customer Pain Point Analyst** | Finds recurring customer problems and explains which ones create real demand. |
-| **Positioning Strategist** | Turns market gaps and customer language into sharper positioning and messaging. |
-| **Content Strategy Builder** | Prioritizes themes, angles, and formats that match audience demand. |
-| **Creative Brief Generator** | Converts audience intelligence into a clear, actionable creative brief. |
-| **Viral Pattern Analyzer** | Identifies repeatable patterns behind high-performing and fast-spreading content. |
+| **[Audience Finder](https://github.com/klinkoai/klinko-audience-finder)** | Finds and prioritizes the audience segments most worth serving. |
+| **[Niche Audience Discovery](https://github.com/klinkoai/klinko-niche-audience-discovery)** | Uncovers overlooked niches, emerging segments, and underserved communities. |
+| **[Audience Comparator](https://github.com/klinkoai/klinko-audience-comparator)** | Compares candidate audiences by demand, motivation, opportunity, and reachability. |
+| **[Market Opportunity Analyst](https://github.com/klinkoai/klinko-market-opportunity-analyst)** | Ranks market opportunities and recommends what deserves validation first. |
+| **[Startup Idea Validator](https://github.com/klinkoai/klinko-startup-idea-validator)** | Tests a startup idea against audience needs, market gaps, and buying motivation. |
+| **[Early Adopter Finder](https://github.com/klinkoai/klinko-early-adopter-finder)** | Identifies the people most likely to try, adopt, and advocate for a new offer. |
+| **[Buyer Persona Builder](https://github.com/klinkoai/klinko-buyer-persona-builder)** | Builds evidence-led personas around needs, triggers, objections, and behavior. |
+| **[Customer Pain Point Analyst](https://github.com/klinkoai/klinko-customer-pain-point-analyst)** | Finds recurring customer problems and explains which ones create real demand. |
+| **[Positioning Strategist](https://github.com/klinkoai/klinko-positioning-strategist)** | Turns market gaps and customer language into sharper positioning and messaging. |
+| **[Content Strategy Builder](https://github.com/klinkoai/klinko-content-strategy-builder)** | Prioritizes themes, angles, and formats that match audience demand. |
+| **[Creative Brief Generator](https://github.com/klinkoai/klinko-creative-brief-generator)** | Converts audience intelligence into a clear, actionable creative brief. |
+| **[Viral Pattern Analyzer](https://github.com/klinkoai/klinko-viral-pattern-analyzer)** | Identifies repeatable patterns behind high-performing and fast-spreading content. |
 
 ## Supported platforms
 
@@ -51,4 +51,3 @@ The public Skill packages, Klinko API contract, API key issuance flow, endpoint 
 ## Contact
 
 [business@klinko.ai](mailto:business@klinko.ai)
-
