@@ -39,13 +39,13 @@ Klinko Skills 把不同的市場問題轉化為聚焦、可執行的 Agent 工�
 
 ## 目錄結構
 
-每個 Skill 都會在 [github.com/klinkoai](https://github.com/klinkoai) 下擁有獨立公開倉庫。倉庫根目錄提供使用者文件，專用目錄中提供可安裝的 Skill 套件。
+每個 Skill 已經在 [github.com/klinkoai](https://github.com/klinkoai) 下擁有獨立公開倉庫和詳細介紹頁面。API 開放後，可安裝的 Skill 套件也會發佈到對應倉庫。
 
 程式可以透過 [`catalog.json`](./catalog.json) 讀取完整目錄。
 
 ## 接入狀態
 
-公開 Skill 套件、Klinko API 協議、API Key 申請流程、介面位址、回應結構、呼叫限額和錯誤碼正在準備中。公開文件不會披露 Klinko 的私有資料基礎設施和內部處理系統。
+十二個公開 Skill 介紹頁面已經全部上線。可安裝的 Skill 套件、Klinko API 協議、API Key 申請流程、介面位址、回應結構、呼叫限額和錯誤碼正在準備中。
 
 ## 文件
 
