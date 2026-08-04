@@ -1,4 +1,4 @@
-# Klinko Skills
+# Klinko AI Market Research Skills
 
 Audience and market intelligence workflows for Codex and Claude Code.
 
