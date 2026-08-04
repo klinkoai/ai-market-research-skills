@@ -1,10 +1,17 @@
-# Klinko AI Market Research Skills
-
-Audience and market intelligence workflows for Codex and Claude Code.
-
-[English](./README.md) · [简体中文](./README.zh-CN.md) · [繁體中文](./README.zh-TW.md)
-
-[Klinko](https://klinko.ai/en/) · [Organization](https://github.com/klinkoai) · [Start Market Research](https://home.klinko.ai)
+<div align="center">
+  <h1>Klinko AI Market Research Skills</h1>
+  <p><strong>Audience and market intelligence workflows for Codex and Claude Code.</strong></p>
+  <p>
+    <a href="./README.md">🇺🇸 English</a> ·
+    <a href="./README.zh-CN.md">🇨🇳 简体中文</a> ·
+    <a href="./README.zh-TW.md">🇭🇰 繁體中文</a>
+  </p>
+  <p>
+    <a href="https://klinko.ai/en/">🌐 Klinko</a> ·
+    <a href="https://github.com/klinkoai">🏢 Organization</a> ·
+    <a href="https://home.klinko.ai">🚀 Start Market Research</a>
+  </p>
+</div>
 
 ## One intelligence layer, twelve focused workflows
 
