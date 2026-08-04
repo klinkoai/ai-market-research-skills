@@ -1,4 +1,4 @@
-# Klinko Skills
+# Klinko AI 市场研究 Skills
 
 面向 Codex 和 Claude Code 的圈层与市场洞察工作流。
 
