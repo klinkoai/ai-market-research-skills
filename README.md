@@ -39,13 +39,13 @@ Klinko Skills turn different market questions into focused Agent workflows. Ever
 
 ## How the catalog is organized
 
-Each Skill will have its own public repository under [github.com/klinkoai](https://github.com/klinkoai). The repository will contain human-facing documentation at the root and an installable Skill package in a dedicated directory.
+Each Skill has its own public repository under [github.com/klinkoai](https://github.com/klinkoai). Every repository now includes a detailed public page. Installable Skill packages will be added to the same repositories when API access opens.
 
 The machine-readable catalog is available in [`catalog.json`](./catalog.json).
 
 ## Integration status
 
-The public Skill packages, Klinko API contract, API key issuance flow, endpoint URL, response schema, rate limits, and error codes are being prepared. They will be documented here without exposing Klinko's private data infrastructure or processing systems.
+All twelve public Skill pages are live. The installable Skill packages, Klinko API contract, API key issuance flow, endpoint URL, response schema, rate limits, and error codes are being prepared.
 
 ## Documentation
 
