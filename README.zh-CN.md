@@ -39,13 +39,13 @@ Klinko Skills 把不同的市场问题转化为聚焦、可执行的 Agent 工�
 
 ## 目录结构
 
-每个 Skill 都会在 [github.com/klinkoai](https://github.com/klinkoai) 下拥有独立公开仓库。仓库根目录提供用户文档，专用目录中提供可安装的 Skill 包。
+每个 Skill 已经在 [github.com/klinkoai](https://github.com/klinkoai) 下拥有独立公开仓库和详细介绍页面。API 开放后，可安装的 Skill 包也会发布到对应仓库。
 
 程序可以通过 [`catalog.json`](./catalog.json) 读取完整目录。
 
 ## 接入状态
 
-公开 Skill 包、Klinko API 协议、API Key 申请流程、接口地址、响应结构、调用限额和错误码正在准备中。公开文档不会披露 Klinko 的私有数据基础设施和内部处理系统。
+十二个公开 Skill 介绍页面已经全部上线。可安装的 Skill 包、Klinko API 协议、API Key 申请流程、接口地址、响应结构、调用限额和错误码正在准备中。
 
 ## 文档
 
