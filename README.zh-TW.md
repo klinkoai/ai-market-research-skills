@@ -1,10 +1,17 @@
-# Klinko AI 市場研究 Skills
-
-面向 Codex 和 Claude Code 的圈層與市場洞察工作流程。
-
-[English](./README.md) · [简体中文](./README.zh-CN.md) · [繁體中文](./README.zh-TW.md)
-
-[Klinko 官網](https://klinko.ai/zh/) · [GitHub Organization](https://github.com/klinkoai) · [開始市場研究](https://home.klinko.ai)
+<div align="center">
+  <h1>Klinko AI 市場研究 Skills</h1>
+  <p><strong>面向 Codex 和 Claude Code 的圈層與市場洞察工作流程。</strong></p>
+  <p>
+    <a href="./README.md">🇺🇸 English</a> ·
+    <a href="./README.zh-CN.md">🇨🇳 简体中文</a> ·
+    <a href="./README.zh-TW.md">🇭🇰 繁體中文</a>
+  </p>
+  <p>
+    <a href="https://klinko.ai/zh/">🌐 Klinko 官網</a> ·
+    <a href="https://github.com/klinkoai">🏢 GitHub Organization</a> ·
+    <a href="https://home.klinko.ai">🚀 開始市場研究</a>
+  </p>
+</div>
 
 ## 一套智慧能力，十二個清晰工作流程
 
