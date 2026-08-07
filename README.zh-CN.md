@@ -35,18 +35,18 @@
 
 | Skill | 支持的决策 |
 | --- | --- |
-| [圈层发现器](./references/workflow-audience-finder.md) | 应该先研究哪个圈层？ |
-| [细分圈层发现](./references/workflow-niche-audience-discovery.md) | 哪个被忽略的细分市场真实且未被满足？ |
-| [圈层对比器](./references/workflow-audience-comparator.md) | 多个候选圈层中应该优先选择谁？ |
-| [市场机会分析](./references/workflow-market-opportunity-analyst.md) | 哪个市场机会最值得先验证？ |
-| [创业想法验证](./references/workflow-startup-idea-validator.md) | 哪项关键假设可能让想法失败？ |
-| [早期采用者发现](./references/workflow-early-adopter-finder.md) | 谁最可能率先尝试产品？ |
-| [买家画像构建器](./references/workflow-buyer-persona-builder.md) | 什么因素推动选定圈层购买？ |
-| [客户痛点分析](./references/workflow-customer-pain-point-analyst.md) | 哪个重复问题正在形成真实需求？ |
-| [定位策略](./references/workflow-positioning-strategist.md) | 什么定位和信息值得测试？ |
-| [内容策略构建](./references/workflow-content-strategy-builder.md) | 哪些主题、形式和渠道应优先投入？ |
-| [创意简报生成](./references/workflow-creative-brief-generator.md) | 如何把证据转化为可执行创意简报？ |
-| [传播模式分析](./references/workflow-viral-pattern-analyzer.md) | 哪些内容机制可能重复？ |
+| [圈层发现器](https://klinko.ai/zh/skills/audience-finder/) · [研究说明](./references/workflow-audience-finder.md) | 应该先研究哪个圈层？ |
+| [细分圈层发现](https://klinko.ai/zh/skills/niche-audience-discovery/) · [研究说明](./references/workflow-niche-audience-discovery.md) | 哪个被忽略的细分市场真实且未被满足？ |
+| [圈层对比器](https://klinko.ai/zh/skills/audience-comparator/) · [研究说明](./references/workflow-audience-comparator.md) | 多个候选圈层中应该优先选择谁？ |
+| [市场机会分析](https://klinko.ai/zh/skills/market-opportunity-analyst/) · [研究说明](./references/workflow-market-opportunity-analyst.md) | 哪个市场机会最值得先验证？ |
+| [创业想法验证](https://klinko.ai/zh/skills/startup-idea-validator/) · [研究说明](./references/workflow-startup-idea-validator.md) | 哪项关键假设可能让想法失败？ |
+| [早期采用者发现](https://klinko.ai/zh/skills/early-adopter-finder/) · [研究说明](./references/workflow-early-adopter-finder.md) | 谁最可能率先尝试产品？ |
+| [买家画像构建器](https://klinko.ai/zh/skills/buyer-persona-builder/) · [研究说明](./references/workflow-buyer-persona-builder.md) | 什么因素推动选定圈层购买？ |
+| [客户痛点分析](https://klinko.ai/zh/skills/customer-pain-point-analyst/) · [研究说明](./references/workflow-customer-pain-point-analyst.md) | 哪个重复问题正在形成真实需求？ |
+| [定位策略](https://klinko.ai/zh/skills/positioning-strategist/) · [研究说明](./references/workflow-positioning-strategist.md) | 什么定位和信息值得测试？ |
+| [内容策略构建](https://klinko.ai/zh/skills/content-strategy-builder/) · [研究说明](./references/workflow-content-strategy-builder.md) | 哪些主题、形式和渠道应优先投入？ |
+| [创意简报生成](https://klinko.ai/zh/skills/creative-brief-generator/) · [研究说明](./references/workflow-creative-brief-generator.md) | 如何把证据转化为可执行创意简报？ |
+| [传播模式分析](https://klinko.ai/zh/skills/viral-pattern-analyzer/) · [研究说明](./references/workflow-viral-pattern-analyzer.md) | 哪些内容机制可能重复？ |
 
 每个 Skill 都在 [github.com/klinkoai](https://github.com/klinkoai) 与 [klinko.ai](https://klinko.ai/zh/skills/) 拥有独立介绍页，包含示例、能力边界和相关研究决策。
 
