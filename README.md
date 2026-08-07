@@ -13,6 +13,16 @@
   </p>
 </div>
 
+## Install with one prompt
+
+Copy the prompt below into Codex or Claude Code. The agent will read this repository, use the instructions for your client, configure Klinko at user level, and verify the connection.
+
+```text
+Set up Klinko AI Market Research Skills from https://github.com/klinkoai/ai-market-research-skills for this client. Read the repository README and the relevant Codex or Claude Code setup guide before making changes. Configure the authenticated Klinko MCP server at user level, preserve my existing MCP configuration, and verify that match_submit, match_get, circle_knowledge, and persona_knowledge are available. Never print, log, commit, or place my API key in a project file. If a key is required, show me how to save it locally in ~/.klinko_mcp_qa_key with permission 600, then continue after I confirm. Finish by reporting exactly what was configured and the verification result.
+```
+
+You need an authorized Klinko MCP API key. Do not paste the key into the prompt or commit it to Git. See the [Codex guide](./docs/codex.md), [Claude Code guide](./docs/claude-code.md), and [authentication notes](./docs/authentication.md) for manual setup.
+
 ## Website preview
 
 ### Skills catalog

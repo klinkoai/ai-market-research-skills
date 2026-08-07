@@ -13,6 +13,16 @@
   </p>
 </div>
 
+## 用一句提示詞安裝
+
+把下面這段提示詞直接複製到 Codex 或 Claude Code。Agent 會讀取本倉庫，依照你正在使用的客戶端完成使用者層級設定並驗證連線。
+
+```text
+請從 https://github.com/klinkoai/ai-market-research-skills 為目前的客戶端安裝並設定 Klinko AI 市場研究 Skills。開始操作前，先閱讀倉庫 README，以及與目前客戶端對應的 Codex 或 Claude Code 接入文件。請使用使用者層級設定接入帶鑑權的 Klinko MCP，保留我現有的 MCP 設定，並驗證 match_submit、match_get、circle_knowledge 和 persona_knowledge 四個工具均可用。不要顯示、記錄、提交 API Key，也不要把 Key 寫進任何專案檔案。如果需要 Key，請先指導我將它儲存在本機 ~/.klinko_mcp_qa_key，並把檔案權限設為 600；等我確認後再繼續。完成後請準確說明修改了哪些設定以及驗證結果。
+```
+
+安裝需要已授權的 Klinko MCP API Key。不要把 Key 貼到提示詞中，也不要提交到 Git。手動設定可查看 [Codex 接入文件](./docs/codex.md)、[Claude Code 接入文件](./docs/claude-code.md)和[身分驗證說明](./docs/authentication.md)。
+
 ## 網站預覽
 
 ### Skills 目錄
