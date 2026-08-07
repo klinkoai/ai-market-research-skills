@@ -8,7 +8,7 @@ Report security concerns privately to [business@klinko.ai](mailto:business@klink
 
 ## Credentials
 
-- Never commit `KLINKO_API_KEY` to a repository.
+- Never commit `KLINKO_MCP_API_KEY` to a repository.
 - Store credentials in environment variables or an approved secret manager.
 - Revoke and replace a key immediately if it is exposed.
 - Do not paste credentials into prompts, screenshots, logs, examples, or issue reports.
@@ -16,4 +16,3 @@ Report security concerns privately to [business@klinko.ai](mailto:business@klink
 ## Public repository boundary
 
 Klinko's public Skill repositories contain workflow instructions, integration documentation, and non-sensitive examples. Private data infrastructure, internal processing systems, service credentials, and server-side implementation are not part of the public repositories.
-

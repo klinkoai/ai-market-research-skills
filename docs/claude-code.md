@@ -1,42 +1,63 @@
-# Install Klinko Skills in Claude Code
+# Connect Klinko MCP to Claude Code
 
-Klinko Skills follow the Agent Skills open standard. Claude Code discovers a Skill from its directory and required `SKILL.md` file.
+Klinko's twelve market research workflows run on one authenticated remote MCP server. This setup has been validated with Claude Code.
 
-## Availability
+## Access
 
-Individual Klinko Skill repositories are being prepared. Use the installation pattern below after a Skill repository is published.
-
-## Personal installation
-
-Install a Skill for use across projects by copying its installable Skill directory into:
+The current endpoint is for authorized development and QA access:
 
 ```text
-$HOME/.claude/skills/<skill-name>/
+https://mcp-dev.klinko.ai/mcp/
 ```
 
-## Project installation
+Store the Bearer API key in a local file and do not commit it to a repository:
 
-Install a Skill for one project by copying it into:
-
-```text
-<project>/.claude/skills/<skill-name>/
+```bash
+chmod 600 ~/.klinko_mcp_qa_key
+export KLINKO_MCP_API_KEY="$(cat ~/.klinko_mcp_qa_key)"
 ```
 
-## Invoke a Skill
+Regenerating a Klinko MCP key immediately revokes the previous key. Codex and Claude Code may share one key, but both clients must be updated after rotation.
 
-Invoke a Skill directly with:
+## Configure Claude Code
 
-```text
-/<skill-name>
+Add Klinko as a user-level HTTP MCP server:
+
+```bash
+export KLINKO_MCP_API_KEY="$(cat ~/.klinko_mcp_qa_key)"
+claude mcp add --transport http --scope user klinko \
+  https://mcp-dev.klinko.ai/mcp/ \
+  -H "Authorization: Bearer $KLINKO_MCP_API_KEY"
 ```
 
-Claude Code can also load a Skill automatically when the request matches its description. If a top-level skills directory is created after Claude Code starts and is not detected, restart Claude Code.
+Use user scope because a project-level `.mcp.json` can be committed accidentally with the key in plain text.
 
-## Authentication
+## Verify
 
-Klinko Skills require `KLINKO_API_KEY` after the public API becomes available. See [Authentication](./authentication.md).
+```bash
+claude mcp list
+```
 
-## Official reference
+A successful connection reports `klinko (HTTP) - Connected` and exposes:
 
-See Anthropic's [Extend Claude with skills](https://code.claude.com/docs/en/slash-commands) documentation.
+- `match_submit`
+- `match_get`
+- `circle_knowledge`
+- `persona_knowledge`
 
+Start a new session or use `/mcp` to reconnect after changing the configuration.
+
+## Rotate or remove access
+
+```bash
+claude mcp remove klinko
+```
+
+After key rotation, remove and add the server again with the new key.
+
+## Security
+
+- The user-level configuration stores the authorization header locally. Protect `~/.claude.json` with appropriate file permissions.
+- Never add the key to project-level `.mcp.json`, `SKILL.md`, prompts, screenshots, logs, or Git history.
+- Rotate the key immediately if it is exposed.
+- Update every connected client after key rotation.

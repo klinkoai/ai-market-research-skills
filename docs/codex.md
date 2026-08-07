@@ -1,38 +1,67 @@
-# Install Klinko Skills in Codex
+# Connect Klinko MCP to Codex
 
-Klinko Skills follow the open Agent Skills format. Each installable Skill is a directory containing a required `SKILL.md` file and optional references, assets, scripts, and `agents/openai.yaml` metadata.
+Klinko's twelve market research workflows run on one authenticated remote MCP server. This setup has been validated with Codex CLI and the Codex desktop app.
 
-## Availability
+## Access
 
-Individual Klinko Skill repositories are being prepared. Use the installation pattern below after a Skill repository is published.
-
-## User installation
-
-Install a Skill for use across repositories by copying its installable Skill directory into:
+The current endpoint is for authorized development and QA access:
 
 ```text
-$HOME/.agents/skills/<skill-name>/
+https://mcp-dev.klinko.ai/mcp/
 ```
 
-## Repository installation
+The server requires a Bearer API key. Store the key locally and never commit it to a repository.
 
-Install a Skill for everyone working in one repository by copying it into:
-
-```text
-<repository>/.agents/skills/<skill-name>/
+```bash
+chmod 600 ~/.klinko_mcp_qa_key
+export KLINKO_MCP_API_KEY="$(cat ~/.klinko_mcp_qa_key)"
 ```
 
-## Invoke a Skill
+Regenerating a Klinko MCP key immediately revokes the previous key. Codex and Claude Code may share one key, but both clients must be updated after rotation.
 
-In Codex CLI or the IDE extension, type `$` to mention the Skill or use `/skills` to browse available Skills. Codex can also select a Skill automatically when the request matches its description.
+## Configure Codex
 
-If a newly installed Skill does not appear, restart Codex.
+Add the following configuration to `~/.codex/config.toml`:
 
-## Authentication
+```toml
+[mcp_servers.klinko]
+url = "https://mcp-dev.klinko.ai/mcp/"
+bearer_token_env_var = "KLINKO_MCP_API_KEY"
+```
 
-Klinko Skills require `KLINKO_API_KEY` after the public API becomes available. See [Authentication](./authentication.md).
+Restart Codex after changing the configuration.
 
-## Official reference
+### Codex CLI
 
-See OpenAI's [Build skills](https://learn.chatgpt.com/docs/build-skills) documentation.
+Export the key in the terminal that launches Codex:
 
+```bash
+export KLINKO_MCP_API_KEY="$(cat ~/.klinko_mcp_qa_key)"
+codex
+```
+
+### Codex desktop app on macOS
+
+The desktop app does not inherit variables from an existing terminal. Inject the variable before reopening the app:
+
+```bash
+launchctl setenv KLINKO_MCP_API_KEY "$(cat ~/.klinko_mcp_qa_key)"
+```
+
+Completely quit and reopen Codex. The injected value must be set again after restarting macOS.
+
+## Verify
+
+Ask Codex to list the connected Klinko MCP tools. A successful connection exposes:
+
+- `match_submit`
+- `match_get`
+- `circle_knowledge`
+- `persona_knowledge`
+
+## Security
+
+- Never place the API key in `SKILL.md`, prompts, screenshots, logs, or Git history.
+- Keep the local key file at mode `600`.
+- Rotate the key immediately if it is exposed.
+- Update every connected client after key rotation.

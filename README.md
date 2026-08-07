@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Klinko AI Market Research Skills</h1>
-  <p><strong>Audience and market intelligence workflows for Codex and Claude Code.</strong></p>
+  <p><strong>Twelve completed market intelligence workflows powered by Klinko MCP.</strong></p>
   <p>
     <a href="./README.md">🇺🇸 English</a> ·
     <a href="./README.zh-CN.md">🇨🇳 简体中文</a> ·
@@ -12,6 +12,16 @@
     <a href="https://home.klinko.ai">🚀 Start Market Research</a>
   </p>
 </div>
+
+## Website preview
+
+### Skills catalog
+
+![Klinko AI Market Research Skills catalog for Codex and Claude Code](./assets/screenshots/skills-hub-en.jpg)
+
+### Skill workflow page
+
+![Klinko Audience Comparator workflow page](./assets/screenshots/audience-comparator-en.jpg)
 
 ## One intelligence layer, twelve focused workflows
 
@@ -34,25 +44,27 @@ Klinko Skills turn different market questions into focused Agent workflows. Ever
 
 ## Supported platforms
 
-- [Codex](./docs/codex.md)
-- [Claude Code](./docs/claude-code.md)
+- [Codex CLI and desktop app](./docs/codex.md) — validated
+- [Claude Code](./docs/claude-code.md) — validated
+
+Other MCP-capable clients require client-specific validation before they are listed as supported.
 
 ## How the catalog is organized
 
-Each Skill has its own public repository under [github.com/klinkoai](https://github.com/klinkoai). Every repository now includes a detailed public page. Installable Skill packages will be added to the same repositories when API access opens.
+Each Skill has its own public repository under [github.com/klinkoai](https://github.com/klinkoai). Every repository includes a detailed workflow page. The public repositories are being synchronized with the tested MCP configuration and installable Skill packages.
 
 The machine-readable catalog is available in [`catalog.json`](./catalog.json).
 
 ## Integration status
 
-All twelve public Skill pages are live. The installable Skill packages, Klinko API contract, API key issuance flow, endpoint URL, response schema, rate limits, and error codes are being prepared.
+All twelve workflows and the authenticated Klinko MCP runtime are complete. The current runtime exposes four tools: `match_submit`, `match_get`, `circle_knowledge`, and `persona_knowledge`. Codex CLI, the Codex desktop app, and Claude Code have been validated. Public package synchronization is separate from runtime completion.
 
 ## Documentation
 
-- [Install in Codex](./docs/codex.md)
-- [Install in Claude Code](./docs/claude-code.md)
+- [Connect Klinko MCP in Codex](./docs/codex.md)
+- [Connect Klinko MCP in Claude Code](./docs/claude-code.md)
 - [Authentication](./docs/authentication.md)
-- [API overview](./docs/api-overview.md)
+- [MCP runtime overview](./docs/api-overview.md)
 - [Security policy](./SECURITY.md)
 
 ## Contact

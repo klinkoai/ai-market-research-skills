@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Klinko AI 市場研究 Skills</h1>
-  <p><strong>面向 Codex 和 Claude Code 的圈層與市場洞察工作流程。</strong></p>
+  <p><strong>由 Klinko MCP 驅動的 12 個已完成市場洞察工作流程。</strong></p>
   <p>
     <a href="./README.md">🇺🇸 English</a> ·
     <a href="./README.zh-CN.md">🇨🇳 简体中文</a> ·
@@ -12,6 +12,16 @@
     <a href="https://home.klinko.ai">🚀 開始市場研究</a>
   </p>
 </div>
+
+## 網站預覽
+
+### Skills 目錄
+
+![面向 Codex 與 Claude Code 的 Klinko AI 市場研究 Skills 目錄](./assets/screenshots/skills-hub-en.jpg)
+
+### Skill 工作流程頁面
+
+![Klinko Audience Comparator 工作流程頁面](./assets/screenshots/audience-comparator-en.jpg)
 
 ## 一套智慧能力，十二個清晰工作流程
 
@@ -34,25 +44,27 @@ Klinko Skills 把不同的市場問題轉化為聚焦、可執行的 Agent 工�
 
 ## 支援平台
 
-- [Codex](./docs/codex.md)
-- [Claude Code](./docs/claude-code.md)
+- [Codex CLI 與桌面 App](./docs/codex.md) — 已驗證
+- [Claude Code](./docs/claude-code.md) — 已驗證
+
+其他支援 MCP 的客戶端需要完成專項驗證後，才會列為正式支援平台。
 
 ## 目錄結構
 
-每個 Skill 已經在 [github.com/klinkoai](https://github.com/klinkoai) 下擁有獨立公開倉庫和詳細介紹頁面。API 開放後，可安裝的 Skill 套件也會發佈到對應倉庫。
+每個 Skill 已經在 [github.com/klinkoai](https://github.com/klinkoai) 下擁有獨立公開倉庫和詳細工作流程頁面。公開倉庫正在同步已驗證的 MCP 設定與可安裝 Skill 套件。
 
 程式可以透過 [`catalog.json`](./catalog.json) 讀取完整目錄。
 
 ## 接入狀態
 
-十二個公開 Skill 介紹頁面已經全部上線。可安裝的 Skill 套件、Klinko API 協議、API Key 申請流程、介面位址、回應結構、呼叫限額和錯誤碼正在準備中。
+12 個工作流程和帶鑑權的 Klinko MCP 執行層均已完成。目前執行層提供 `match_submit`、`match_get`、`circle_knowledge` 與 `persona_knowledge` 四個工具，並已在 Codex CLI、Codex 桌面 App 與 Claude Code 中驗證。公開安裝套件同步與執行層完成狀態分開管理。
 
 ## 文件
 
-- [在 Codex 中安裝](./docs/codex.md)
-- [在 Claude Code 中安裝](./docs/claude-code.md)
+- [在 Codex 中連接 Klinko MCP](./docs/codex.md)
+- [在 Claude Code 中連接 Klinko MCP](./docs/claude-code.md)
 - [身分驗證](./docs/authentication.md)
-- [API 概覽](./docs/api-overview.md)
+- [MCP 執行層概覽](./docs/api-overview.md)
 - [安全政策](./SECURITY.md)
 
 ## 聯絡我們
