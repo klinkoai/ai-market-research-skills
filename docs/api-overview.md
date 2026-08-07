@@ -1,6 +1,6 @@
 # Klinko MCP Runtime Overview
 
-All twelve Klinko market research workflows use one authenticated remote MCP runtime. Codex and Claude Code are the validated clients.
+Klinko's twelve AI market research skills use an authenticated remote MCP runtime. Codex and Claude Code are the validated clients.
 
 ## Current development endpoint
 
@@ -23,7 +23,7 @@ Matching usually takes one to three minutes. A workflow should retain the return
 
 ## Skill layer
 
-The MCP server provides the shared data and execution layer. Each Klinko Skill adds a focused workflow: required inputs, tool sequence, evidence boundaries, decision criteria, and output structure. A Skill must never invent evidence when an MCP tool returns no support.
+The MCP server provides the evidence and execution layer for Klinko AI market research skills. Each skill defines its required inputs, tool sequence, evidence boundaries, decision criteria, and output structure. A skill must never invent evidence when an MCP tool returns no support.
 
 ## Public boundary
 

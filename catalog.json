@@ -1,26 +1,36 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "publisher": {
     "name": "Klinko",
     "organization": "https://github.com/klinkoai",
     "website": "https://klinko.ai/en/"
   },
-  "runtime": "klinko-mcp",
-  "runtime_status": "complete",
-  "public_package_status": "synchronizing",
+  "package": {
+    "name": "Klinko AI Market Research Skills",
+    "slug": "klinko-market-research",
+    "repository": "https://github.com/klinkoai/ai-market-research-skills",
+    "entrypoint": "SKILL.md",
+    "status": "complete"
+  },
+  "runtime": {
+    "name": "klinko-mcp",
+    "status": "complete",
+    "authentication": "bearer-api-key",
+    "tools": ["match_submit", "match_get", "circle_knowledge", "persona_knowledge"]
+  },
   "validated_clients": ["codex-cli", "codex-desktop", "claude-code"],
   "skills": [
-    {"name":"Audience Finder","slug":"audience-finder","repository":"https://github.com/klinkoai/klinko-audience-finder","homepage":"https://klinko.ai/en/skills/audience-finder/","status":"workflow-complete"},
-    {"name":"Niche Audience Discovery","slug":"niche-audience-discovery","repository":"https://github.com/klinkoai/klinko-niche-audience-discovery","homepage":"https://klinko.ai/en/skills/niche-audience-discovery/","status":"workflow-complete"},
-    {"name":"Audience Comparator","slug":"audience-comparator","repository":"https://github.com/klinkoai/klinko-audience-comparator","homepage":"https://klinko.ai/en/skills/audience-comparator/","status":"workflow-complete"},
-    {"name":"Market Opportunity Analyst","slug":"market-opportunity-analyst","repository":"https://github.com/klinkoai/klinko-market-opportunity-analyst","homepage":"https://klinko.ai/en/skills/market-opportunity-analyst/","status":"workflow-complete"},
-    {"name":"Startup Idea Validator","slug":"startup-idea-validator","repository":"https://github.com/klinkoai/klinko-startup-idea-validator","homepage":"https://klinko.ai/en/skills/startup-idea-validator/","status":"workflow-complete"},
-    {"name":"Early Adopter Finder","slug":"early-adopter-finder","repository":"https://github.com/klinkoai/klinko-early-adopter-finder","homepage":"https://klinko.ai/en/skills/early-adopter-finder/","status":"workflow-complete"},
-    {"name":"Buyer Persona Builder","slug":"buyer-persona-builder","repository":"https://github.com/klinkoai/klinko-buyer-persona-builder","homepage":"https://klinko.ai/en/skills/buyer-persona-builder/","status":"workflow-complete"},
-    {"name":"Customer Pain Point Analyst","slug":"customer-pain-point-analyst","repository":"https://github.com/klinkoai/klinko-customer-pain-point-analyst","homepage":"https://klinko.ai/en/skills/customer-pain-point-analyst/","status":"workflow-complete"},
-    {"name":"Positioning Strategist","slug":"positioning-strategist","repository":"https://github.com/klinkoai/klinko-positioning-strategist","homepage":"https://klinko.ai/en/skills/positioning-strategist/","status":"workflow-complete"},
-    {"name":"Content Strategy Builder","slug":"content-strategy-builder","repository":"https://github.com/klinkoai/klinko-content-strategy-builder","homepage":"https://klinko.ai/en/skills/content-strategy-builder/","status":"workflow-complete"},
-    {"name":"Creative Brief Generator","slug":"creative-brief-generator","repository":"https://github.com/klinkoai/klinko-creative-brief-generator","homepage":"https://klinko.ai/en/skills/creative-brief-generator/","status":"workflow-complete"},
-    {"name":"Viral Pattern Analyzer","slug":"viral-pattern-analyzer","repository":"https://github.com/klinkoai/klinko-viral-pattern-analyzer","homepage":"https://klinko.ai/en/skills/viral-pattern-analyzer/","status":"workflow-complete"}
+    {"name":"Audience Finder","slug":"audience-finder","reference":"references/workflow-audience-finder.md","documentation":"https://github.com/klinkoai/klinko-audience-finder","homepage":"https://klinko.ai/en/skills/audience-finder/","status":"complete"},
+    {"name":"Niche Audience Discovery","slug":"niche-audience-discovery","reference":"references/workflow-niche-audience-discovery.md","documentation":"https://github.com/klinkoai/klinko-niche-audience-discovery","homepage":"https://klinko.ai/en/skills/niche-audience-discovery/","status":"complete"},
+    {"name":"Audience Comparator","slug":"audience-comparator","reference":"references/workflow-audience-comparator.md","documentation":"https://github.com/klinkoai/klinko-audience-comparator","homepage":"https://klinko.ai/en/skills/audience-comparator/","status":"complete"},
+    {"name":"Market Opportunity Analyst","slug":"market-opportunity-analyst","reference":"references/workflow-market-opportunity-analyst.md","documentation":"https://github.com/klinkoai/klinko-market-opportunity-analyst","homepage":"https://klinko.ai/en/skills/market-opportunity-analyst/","status":"complete"},
+    {"name":"Startup Idea Validator","slug":"startup-idea-validator","reference":"references/workflow-startup-idea-validator.md","documentation":"https://github.com/klinkoai/klinko-startup-idea-validator","homepage":"https://klinko.ai/en/skills/startup-idea-validator/","status":"complete"},
+    {"name":"Early Adopter Finder","slug":"early-adopter-finder","reference":"references/workflow-early-adopter-finder.md","documentation":"https://github.com/klinkoai/klinko-early-adopter-finder","homepage":"https://klinko.ai/en/skills/early-adopter-finder/","status":"complete"},
+    {"name":"Buyer Persona Builder","slug":"buyer-persona-builder","reference":"references/workflow-buyer-persona-builder.md","documentation":"https://github.com/klinkoai/klinko-buyer-persona-builder","homepage":"https://klinko.ai/en/skills/buyer-persona-builder/","status":"complete"},
+    {"name":"Customer Pain Point Analyst","slug":"customer-pain-point-analyst","reference":"references/workflow-customer-pain-point-analyst.md","documentation":"https://github.com/klinkoai/klinko-customer-pain-point-analyst","homepage":"https://klinko.ai/en/skills/customer-pain-point-analyst/","status":"complete"},
+    {"name":"Positioning Strategist","slug":"positioning-strategist","reference":"references/workflow-positioning-strategist.md","documentation":"https://github.com/klinkoai/klinko-positioning-strategist","homepage":"https://klinko.ai/en/skills/positioning-strategist/","status":"complete"},
+    {"name":"Content Strategy Builder","slug":"content-strategy-builder","reference":"references/workflow-content-strategy-builder.md","documentation":"https://github.com/klinkoai/klinko-content-strategy-builder","homepage":"https://klinko.ai/en/skills/content-strategy-builder/","status":"complete"},
+    {"name":"Creative Brief Generator","slug":"creative-brief-generator","reference":"references/workflow-creative-brief-generator.md","documentation":"https://github.com/klinkoai/klinko-creative-brief-generator","homepage":"https://klinko.ai/en/skills/creative-brief-generator/","status":"complete"},
+    {"name":"Viral Pattern Analyzer","slug":"viral-pattern-analyzer","reference":"references/workflow-viral-pattern-analyzer.md","documentation":"https://github.com/klinkoai/klinko-viral-pattern-analyzer","homepage":"https://klinko.ai/en/skills/viral-pattern-analyzer/","status":"complete"}
   ]
 }

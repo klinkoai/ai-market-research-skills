@@ -1,13 +1,13 @@
 <div align="center">
   <h1>Klinko AI Market Research Skills</h1>
-  <p><strong>Twelve completed market intelligence workflows powered by Klinko MCP.</strong></p>
+  <p><strong>12 evidence-led skills for audience research, market validation, positioning, content, and growth decisions.</strong></p>
   <p>
     <a href="./README.md">🇺🇸 English</a> ·
     <a href="./README.zh-CN.md">🇨🇳 简体中文</a> ·
     <a href="./README.zh-TW.md">🇭🇰 繁體中文</a>
   </p>
   <p>
-    <a href="https://klinko.ai/en/">🌐 Klinko</a> ·
+    <a href="https://klinko.ai/en/skills/">🌐 Explore all skills</a> ·
     <a href="https://github.com/klinkoai">🏢 Organization</a> ·
     <a href="https://home.klinko.ai">🚀 Start Market Research</a>
   </p>
@@ -15,59 +15,60 @@
 
 ## Install with one prompt
 
-Copy the prompt below into Codex or Claude Code. The agent will read this repository, use the instructions for your client, configure Klinko at user level, and verify the connection.
+Copy this into Codex or Claude Code:
 
 ```text
-Set up Klinko AI Market Research Skills from https://github.com/klinkoai/ai-market-research-skills for this client. Read the repository README and the relevant Codex or Claude Code setup guide before making changes. Configure the authenticated Klinko MCP server at user level, preserve my existing MCP configuration, and verify that match_submit, match_get, circle_knowledge, and persona_knowledge are available. Never print, log, commit, or place my API key in a project file. If a key is required, show me how to save it locally in ~/.klinko_mcp_qa_key with permission 600, then continue after I confirm. Finish by reporting exactly what was configured and the verification result.
+Install Klinko AI Market Research Skills from https://github.com/klinkoai/ai-market-research-skills for this client. Read the repository instructions before changing anything, preserve my existing Skills and MCP configuration, and connect the authenticated Klinko MCP server at user level with my own API key. Never ask me to paste the key into chat, never print it, and never write it into a project or Git repository. Verify match_submit, match_get, circle_knowledge, and persona_knowledge, then report what was configured and which market research skills are available.
 ```
 
-You need an authorized Klinko MCP API key. Do not paste the key into the prompt or commit it to Git. See the [Codex guide](./docs/codex.md), [Claude Code guide](./docs/claude-code.md), and [authentication notes](./docs/authentication.md) for manual setup.
+An authorized Klinko API key is required for live research. See the [Codex guide](./docs/codex.md), [Claude Code guide](./docs/claude-code.md), and [authentication notes](./docs/authentication.md).
 
 ## Website preview
 
-### Skills catalog
+![Klinko AI Market Research Skills catalog](./assets/screenshots/skills-hub-en.jpg)
 
-![Klinko AI Market Research Skills catalog for Codex and Claude Code](./assets/screenshots/skills-hub-en.jpg)
+![Audience Comparator AI Market Research Skill](./assets/screenshots/audience-comparator-en.jpg)
 
-### Skill workflow page
+## 12 market research skills
 
-![Klinko Audience Comparator workflow page](./assets/screenshots/audience-comparator-en.jpg)
+Choose the skill that matches the decision in front of you. Each skill defines focused inputs, evaluation criteria, evidence boundaries, outputs, and a next validation step.
 
-## One intelligence layer, twelve focused workflows
-
-Klinko Skills turn different market questions into focused Agent workflows. Every Skill uses the same secure Klinko intelligence layer while defining its own inputs, decision process, and output format.
-
-| Skill | What it does |
+| Skill | Decision it supports |
 | --- | --- |
-| **[Audience Finder](https://github.com/klinkoai/klinko-audience-finder)** | Finds and prioritizes the audience segments most worth serving. |
-| **[Niche Audience Discovery](https://github.com/klinkoai/klinko-niche-audience-discovery)** | Uncovers overlooked niches, emerging segments, and underserved communities. |
-| **[Audience Comparator](https://github.com/klinkoai/klinko-audience-comparator)** | Compares candidate audiences by demand, motivation, opportunity, and reachability. |
-| **[Market Opportunity Analyst](https://github.com/klinkoai/klinko-market-opportunity-analyst)** | Ranks market opportunities and recommends what deserves validation first. |
-| **[Startup Idea Validator](https://github.com/klinkoai/klinko-startup-idea-validator)** | Tests a startup idea against audience needs, market gaps, and buying motivation. |
-| **[Early Adopter Finder](https://github.com/klinkoai/klinko-early-adopter-finder)** | Identifies the people most likely to try, adopt, and advocate for a new offer. |
-| **[Buyer Persona Builder](https://github.com/klinkoai/klinko-buyer-persona-builder)** | Builds evidence-led personas around needs, triggers, objections, and behavior. |
-| **[Customer Pain Point Analyst](https://github.com/klinkoai/klinko-customer-pain-point-analyst)** | Finds recurring customer problems and explains which ones create real demand. |
-| **[Positioning Strategist](https://github.com/klinkoai/klinko-positioning-strategist)** | Turns market gaps and customer language into sharper positioning and messaging. |
-| **[Content Strategy Builder](https://github.com/klinkoai/klinko-content-strategy-builder)** | Prioritizes themes, angles, and formats that match audience demand. |
-| **[Creative Brief Generator](https://github.com/klinkoai/klinko-creative-brief-generator)** | Converts audience intelligence into a clear, actionable creative brief. |
-| **[Viral Pattern Analyzer](https://github.com/klinkoai/klinko-viral-pattern-analyzer)** | Identifies repeatable patterns behind high-performing and fast-spreading content. |
+| [Audience Finder](./references/workflow-audience-finder.md) | Which audience should we investigate first? |
+| [Niche Audience Discovery](./references/workflow-niche-audience-discovery.md) | Which overlooked niche is coherent and underserved? |
+| [Audience Comparator](./references/workflow-audience-comparator.md) | Which candidate audience is the stronger choice? |
+| [Market Opportunity Analyst](./references/workflow-market-opportunity-analyst.md) | Which market opportunity deserves validation first? |
+| [Startup Idea Validator](./references/workflow-startup-idea-validator.md) | Which assumption could invalidate the idea? |
+| [Early Adopter Finder](./references/workflow-early-adopter-finder.md) | Who is most likely to try the offer first? |
+| [Buyer Persona Builder](./references/workflow-buyer-persona-builder.md) | What drives the selected audience's buying behavior? |
+| [Customer Pain Point Analyst](./references/workflow-customer-pain-point-analyst.md) | Which recurring problem creates meaningful demand? |
+| [Positioning Strategist](./references/workflow-positioning-strategist.md) | What position and message are worth testing? |
+| [Content Strategy Builder](./references/workflow-content-strategy-builder.md) | Which content themes and channels deserve priority? |
+| [Creative Brief Generator](./references/workflow-creative-brief-generator.md) | How should evidence become an execution-ready brief? |
+| [Viral Pattern Analyzer](./references/workflow-viral-pattern-analyzer.md) | Which content mechanisms appear repeatable? |
 
-## Supported platforms
+Each skill also has a focused public page under [github.com/klinkoai](https://github.com/klinkoai) and on [klinko.ai](https://klinko.ai/en/skills/), with examples, limitations, and related research decisions.
+
+## Package structure
+
+```text
+ai-market-research-skills/
+├── SKILL.md                     # entry point and shared execution rules
+├── agents/openai.yaml           # user-facing Skill definition
+├── references/
+│   ├── mcp-setup.md
+│   ├── mcp-tools.md
+│   └── workflow-*.md            # focused research instructions
+└── docs/                        # client setup and security documentation
+```
+
+## Supported clients
 
 - [Codex CLI and desktop app](./docs/codex.md) — validated
 - [Claude Code](./docs/claude-code.md) — validated
 
-Other MCP-capable clients require client-specific validation before they are listed as supported.
-
-## How the catalog is organized
-
-Each Skill has its own public repository under [github.com/klinkoai](https://github.com/klinkoai). Every repository includes a detailed workflow page. The public repositories are being synchronized with the tested MCP configuration and installable Skill packages.
-
-The machine-readable catalog is available in [`catalog.json`](./catalog.json).
-
-## Integration status
-
-All twelve workflows and the authenticated Klinko MCP runtime are complete. The current runtime exposes four tools: `match_submit`, `match_get`, `circle_knowledge`, and `persona_knowledge`. Codex CLI, the Codex desktop app, and Claude Code have been validated. Public package synchronization is separate from runtime completion.
+The MCP runtime exposes `match_submit`, `match_get`, `circle_knowledge`, and `persona_knowledge`. All 12 skills and the authenticated runtime are complete.
 
 ## Documentation
 
@@ -75,6 +76,7 @@ All twelve workflows and the authenticated Klinko MCP runtime are complete. The 
 - [Connect Klinko MCP in Claude Code](./docs/claude-code.md)
 - [Authentication](./docs/authentication.md)
 - [MCP runtime overview](./docs/api-overview.md)
+- [Machine-readable catalog](./catalog.json)
 - [Security policy](./SECURITY.md)
 
 ## Contact

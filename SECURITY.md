@@ -15,4 +15,4 @@ Report security concerns privately to [business@klinko.ai](mailto:business@klink
 
 ## Public repository boundary
 
-Klinko's public Skill repositories contain workflow instructions, integration documentation, and non-sensitive examples. Private data infrastructure, internal processing systems, service credentials, and server-side implementation are not part of the public repositories.
+The main public repository contains the Klinko AI market research skills package, research instructions, integration documentation, and non-sensitive examples. Focused repositories provide supporting documentation for individual skills. Private data infrastructure, internal processing systems, service credentials, and server-side implementation are not part of the public repositories.

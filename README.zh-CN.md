@@ -1,13 +1,13 @@
 <div align="center">
   <h1>Klinko AI 市场研究 Skills</h1>
-  <p><strong>由 Klinko MCP 驱动的 12 个已完成市场洞察工作流。</strong></p>
+  <p><strong>12 个证据驱动的 Skills，覆盖圈层研究、市场验证、定位、内容与增长决策。</strong></p>
   <p>
     <a href="./README.md">🇺🇸 English</a> ·
     <a href="./README.zh-CN.md">🇨🇳 简体中文</a> ·
     <a href="./README.zh-TW.md">🇭🇰 繁體中文</a>
   </p>
   <p>
-    <a href="https://klinko.ai/zh/">🌐 Klinko 官网</a> ·
+    <a href="https://klinko.ai/zh/skills/">🌐 浏览全部 Skills</a> ·
     <a href="https://github.com/klinkoai">🏢 GitHub Organization</a> ·
     <a href="https://home.klinko.ai">🚀 开始市场研究</a>
   </p>
@@ -15,59 +15,60 @@
 
 ## 用一句提示词安装
 
-把下面这段提示词直接复制到 Codex 或 Claude Code。Agent 会读取本仓库，根据你正在使用的客户端完成用户级配置并验证连接。
+把下面这段提示词复制到 Codex 或 Claude Code：
 
 ```text
-请从 https://github.com/klinkoai/ai-market-research-skills 为当前客户端安装并配置 Klinko AI 市场研究 Skills。开始操作前，先阅读仓库 README，以及与当前客户端对应的 Codex 或 Claude Code 接入文档。请使用用户级配置接入带鉴权的 Klinko MCP，保留我现有的 MCP 配置，并验证 match_submit、match_get、circle_knowledge 和 persona_knowledge 四个工具均可用。不要显示、记录、提交 API Key，也不要把 Key 写进任何项目文件。如果需要 Key，请先指导我将它保存在本机 ~/.klinko_mcp_qa_key，并把文件权限设为 600；等我确认后再继续。完成后请准确说明修改了哪些配置以及验证结果。
+请从 https://github.com/klinkoai/ai-market-research-skills 为当前客户端安装 Klinko AI 市场研究 Skills。修改配置前先阅读仓库说明，保留我已有的 Skills 和 MCP 配置，并使用我自己的 API Key 在用户级接入带鉴权的 Klinko MCP。不要让我把 Key 发到聊天里，不要显示或记录 Key，也不要把 Key 写入项目或 Git。验证 match_submit、match_get、circle_knowledge 和 persona_knowledge 四个工具，然后说明完成了哪些配置以及目前可以使用哪些市场研究 Skills。
 ```
 
-安装需要已授权的 Klinko MCP API Key。不要把 Key 粘贴到提示词中，也不要提交到 Git。手动配置可查看 [Codex 接入文档](./docs/codex.md)、[Claude Code 接入文档](./docs/claude-code.md)和[身份验证说明](./docs/authentication.md)。
+真实研究需要已授权的 Klinko API Key。手动配置请查看 [Codex 接入文档](./docs/codex.md)、[Claude Code 接入文档](./docs/claude-code.md)和[身份验证说明](./docs/authentication.md)。
 
 ## 网站预览
 
-### Skills 目录
+![Klinko 的 12 个 AI 市场研究 Skills](./assets/screenshots/skills-hub-zh.jpg)
 
-![面向 Codex 与 Claude Code 的 Klinko AI 市场研究 Skills 目录](./assets/screenshots/skills-hub-zh.jpg)
+![圈层对比 AI 市场研究 Skill](./assets/screenshots/audience-comparator-en.jpg)
 
-### Skill 工作流页面
+## 12 个市场研究 Skills
 
-![Klinko 圈层对比器工作流页面](./assets/screenshots/audience-comparator-en.jpg)
+根据眼前需要做出的决定选择对应 Skill。每个 Skill 都定义了专门的输入、判断标准、证据边界、输出和下一步验证。
 
-## 一套智能能力，十二个清晰工作流
-
-Klinko Skills 把不同的市场问题转化为聚焦、可执行的 Agent 工作流。所有 Skill 共用同一套安全的 Klinko 智能能力，但拥有各自的输入要求、判断流程和输出格式。
-
-| Skill | 能做什么 |
+| Skill | 支持的决策 |
 | --- | --- |
-| **[Audience Finder](https://github.com/klinkoai/klinko-audience-finder)** | 发现并排序最值得优先服务的目标圈层。 |
-| **[Niche Audience Discovery](https://github.com/klinkoai/klinko-niche-audience-discovery)** | 找到容易被忽略的细分人群、新兴圈层和未被满足的社群。 |
-| **[Audience Comparator](https://github.com/klinkoai/klinko-audience-comparator)** | 从需求、动机、机会和可触达性比较多个候选圈层。 |
-| **[Market Opportunity Analyst](https://github.com/klinkoai/klinko-market-opportunity-analyst)** | 排序市场机会，判断什么最值得优先验证。 |
-| **[Startup Idea Validator](https://github.com/klinkoai/klinko-startup-idea-validator)** | 根据用户需求、市场缺口和购买动机验证创业想法。 |
-| **[Early Adopter Finder](https://github.com/klinkoai/klinko-early-adopter-finder)** | 找到最可能尝试、采用并主动推荐新产品的人群。 |
-| **[Buyer Persona Builder](https://github.com/klinkoai/klinko-buyer-persona-builder)** | 围绕需求、触发因素、顾虑和行为构建买家画像。 |
-| **[Customer Pain Point Analyst](https://github.com/klinkoai/klinko-customer-pain-point-analyst)** | 发现反复出现的客户问题，并判断哪些问题正在形成真实需求。 |
-| **[Positioning Strategist](https://github.com/klinkoai/klinko-positioning-strategist)** | 把市场缺口和消费者语言转化为更清晰的定位与信息表达。 |
-| **[Content Strategy Builder](https://github.com/klinkoai/klinko-content-strategy-builder)** | 根据圈层需求排序内容主题、角度和形式。 |
-| **[Creative Brief Generator](https://github.com/klinkoai/klinko-creative-brief-generator)** | 把圈层洞察转化为清晰、可执行的创意简报。 |
-| **[Viral Pattern Analyzer](https://github.com/klinkoai/klinko-viral-pattern-analyzer)** | 识别高表现和快速传播内容背后可复用的模式。 |
+| [圈层发现器](./references/workflow-audience-finder.md) | 应该先研究哪个圈层？ |
+| [细分圈层发现](./references/workflow-niche-audience-discovery.md) | 哪个被忽略的细分市场真实且未被满足？ |
+| [圈层对比器](./references/workflow-audience-comparator.md) | 多个候选圈层中应该优先选择谁？ |
+| [市场机会分析](./references/workflow-market-opportunity-analyst.md) | 哪个市场机会最值得先验证？ |
+| [创业想法验证](./references/workflow-startup-idea-validator.md) | 哪项关键假设可能让想法失败？ |
+| [早期采用者发现](./references/workflow-early-adopter-finder.md) | 谁最可能率先尝试产品？ |
+| [买家画像构建器](./references/workflow-buyer-persona-builder.md) | 什么因素推动选定圈层购买？ |
+| [客户痛点分析](./references/workflow-customer-pain-point-analyst.md) | 哪个重复问题正在形成真实需求？ |
+| [定位策略](./references/workflow-positioning-strategist.md) | 什么定位和信息值得测试？ |
+| [内容策略构建](./references/workflow-content-strategy-builder.md) | 哪些主题、形式和渠道应优先投入？ |
+| [创意简报生成](./references/workflow-creative-brief-generator.md) | 如何把证据转化为可执行创意简报？ |
+| [传播模式分析](./references/workflow-viral-pattern-analyzer.md) | 哪些内容机制可能重复？ |
 
-## 支持平台
+每个 Skill 都在 [github.com/klinkoai](https://github.com/klinkoai) 与 [klinko.ai](https://klinko.ai/zh/skills/) 拥有独立介绍页，包含示例、能力边界和相关研究决策。
+
+## 安装包结构
+
+```text
+ai-market-research-skills/
+├── SKILL.md                     # 入口与通用执行规则
+├── agents/openai.yaml           # 面向用户的 Skill 定义
+├── references/
+│   ├── mcp-setup.md
+│   ├── mcp-tools.md
+│   └── workflow-*.md            # 专门的研究说明
+└── docs/                        # 客户端接入和安全文档
+```
+
+## 支持客户端
 
 - [Codex CLI 与桌面 App](./docs/codex.md) — 已验证
 - [Claude Code](./docs/claude-code.md) — 已验证
 
-其他支持 MCP 的客户端需要完成专项验证后，才会列为正式支持平台。
-
-## 目录结构
-
-每个 Skill 已经在 [github.com/klinkoai](https://github.com/klinkoai) 下拥有独立公开仓库和详细工作流页面。公开仓库正在同步已经验证的 MCP 配置与可安装 Skill 包。
-
-程序可以通过 [`catalog.json`](./catalog.json) 读取完整目录。
-
-## 接入状态
-
-12 个工作流和带鉴权的 Klinko MCP 运行层均已完成。当前运行层提供 `match_submit`、`match_get`、`circle_knowledge` 与 `persona_knowledge` 四个工具，并已在 Codex CLI、Codex 桌面 App 与 Claude Code 中验证。公开安装包同步与运行层完成状态分开管理。
+MCP 运行层提供 `match_submit`、`match_get`、`circle_knowledge` 和 `persona_knowledge`。12 个 Skills 与鉴权运行层均已完成。
 
 ## 文档
 
@@ -75,6 +76,7 @@ Klinko Skills 把不同的市场问题转化为聚焦、可执行的 Agent 工�
 - [在 Claude Code 中连接 Klinko MCP](./docs/claude-code.md)
 - [身份验证](./docs/authentication.md)
 - [MCP 运行层概览](./docs/api-overview.md)
+- [机器可读目录](./catalog.json)
 - [安全政策](./SECURITY.md)
 
 ## 联系我们
