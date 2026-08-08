@@ -27,9 +27,9 @@ An authorized Klinko API key is required for live research. See the [Codex guide
 
 ## Website preview
 
-![Klinko AI Market Research Skills catalog](./assets/screenshots/skills-hub-en-current.jpg)
+![Klinko AI Market Research Skills catalog](./assets/screenshots/skills-hub-en-current.png)
 
-Open a focused Skill below or visit the [Klinko website](https://klinko.ai/en/).
+Open a focused Skill below or visit the [Klinko Skill catalog](https://klinko.ai/en/skills/).
 
 ## Six core market research skills
 

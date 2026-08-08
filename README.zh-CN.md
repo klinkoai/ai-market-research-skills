@@ -27,9 +27,9 @@ Klinko 把公开市场信号转化为有优先级的市场决定：**服务谁�
 
 ## 网站预览
 
-![Klinko 的 6 个 AI 市场研究 Skills](./assets/screenshots/skills-hub-zh-current.jpg)
+![Klinko 的 6 个 AI 市场研究 Skills](./assets/screenshots/skills-hub-zh-current.png)
 
-直接打开下面的专门 Skill 说明，或访问 [Klinko 中文网站](https://klinko.ai/zh/)。
+直接打开下面的专门 Skill 说明，或访问 [Klinko 中文 Skill 目录](https://klinko.ai/zh/skills/)。
 
 ## 6 个核心市场研究 Skills
 
