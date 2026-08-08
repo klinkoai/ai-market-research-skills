@@ -1,6 +1,6 @@
 interface:
   display_name: "Klinko Market Research"
-  short_description: "Use 12 evidence-led AI market research skills"
+  short_description: "Use six core evidence-led AI market research skills"
   default_prompt: "Use $klinko-market-research to apply the right research skill and answer my market question with Klinko evidence."
 
 dependencies:

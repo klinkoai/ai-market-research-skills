@@ -1,13 +1,13 @@
 <div align="center">
   <h1>Klinko AI Market Research Skills</h1>
-  <p><strong>12 evidence-led skills for audience research, market validation, positioning, content, and growth decisions.</strong></p>
+  <p><strong>Six core skills for audience research, market validation, positioning, and content decisions.</strong></p>
   <p>
     <a href="./README.md">🇺🇸 English</a> ·
     <a href="./README.zh-CN.md">🇨🇳 简体中文</a> ·
     <a href="./README.zh-TW.md">🇭🇰 繁體中文</a>
   </p>
   <p>
-    <a href="#12-market-research-skills">🌐 Explore all skills</a> ·
+    <a href="#six-core-market-research-skills">🌐 Explore the core skills</a> ·
     <a href="https://github.com/klinkoai">🏢 Organization</a> ·
     <a href="https://home.klinko.ai">🚀 Start Market Research</a>
   </p>
@@ -27,28 +27,22 @@ An authorized Klinko API key is required for live research. See the [Codex guide
 
 ![Klinko AI Market Research Skills catalog](./assets/screenshots/skills-hub-en.jpg)
 
-![Audience Comparator AI Market Research Skill](./assets/screenshots/audience-comparator-en.jpg)
+![Klinko AI market research skill interface preview](./assets/screenshots/audience-comparator-en.jpg)
 
-## 12 market research skills
+## Six core market research skills
 
-Choose the skill that matches the decision in front of you. Each skill defines focused inputs, evaluation criteria, evidence boundaries, outputs, and a next validation step.
+Klinko focuses its public catalog on six distinct, high-value market decisions. Each skill defines focused inputs, evaluation criteria, evidence boundaries, outputs, and a next validation step.
 
 | Skill | Decision it supports |
 | --- | --- |
 | [Audience Finder](./references/workflow-audience-finder.md) | Which audience should we investigate first? |
-| [Niche Audience Discovery](./references/workflow-niche-audience-discovery.md) | Which overlooked niche is coherent and underserved? |
-| [Audience Comparator](./references/workflow-audience-comparator.md) | Which candidate audience is the stronger choice? |
+| [Customer Pain Point Analyst](./references/workflow-customer-pain-point-analyst.md) | Which recurring problem creates meaningful demand? |
 | [Market Opportunity Analyst](./references/workflow-market-opportunity-analyst.md) | Which market opportunity deserves validation first? |
 | [Startup Idea Validator](./references/workflow-startup-idea-validator.md) | Which assumption could invalidate the idea? |
-| [Early Adopter Finder](./references/workflow-early-adopter-finder.md) | Who is most likely to try the offer first? |
-| [Buyer Persona Builder](./references/workflow-buyer-persona-builder.md) | What drives the selected audience's buying behavior? |
-| [Customer Pain Point Analyst](./references/workflow-customer-pain-point-analyst.md) | Which recurring problem creates meaningful demand? |
 | [Positioning Strategist](./references/workflow-positioning-strategist.md) | What position and message are worth testing? |
 | [Content Strategy Builder](./references/workflow-content-strategy-builder.md) | Which content themes and channels deserve priority? |
-| [Creative Brief Generator](./references/workflow-creative-brief-generator.md) | How should evidence become an execution-ready brief? |
-| [Viral Pattern Analyzer](./references/workflow-viral-pattern-analyzer.md) | Which content mechanisms appear repeatable? |
 
-Each skill also has a focused public repository under [github.com/klinkoai](https://github.com/klinkoai), with examples, limitations, and related research decisions.
+The core skills cover the full path from audience discovery to market action without splitting closely related search intents across too many public choices. Additional research operations remain available inside the installed package when they are needed.
 
 ## Package structure
 
@@ -68,7 +62,7 @@ ai-market-research-skills/
 - [Codex CLI and desktop app](./docs/codex.md) — validated
 - [Claude Code](./docs/claude-code.md) — validated
 
-The MCP runtime exposes `match_submit`, `match_get`, `circle_knowledge`, and `persona_knowledge`. All 12 skills and the authenticated runtime are complete.
+The MCP runtime exposes `match_submit`, `match_get`, `circle_knowledge`, and `persona_knowledge`. All six core skills and the authenticated runtime are complete.
 
 ## Documentation
 

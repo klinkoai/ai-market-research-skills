@@ -1,6 +1,6 @@
 # Klinko MCP Runtime Overview
 
-Klinko's twelve AI market research skills use an authenticated remote MCP runtime. Codex and Claude Code are the validated clients.
+Klinko's six core AI market research skills use an authenticated remote MCP runtime. Codex and Claude Code are the validated clients.
 
 ## Current development endpoint
 

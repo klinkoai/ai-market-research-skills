@@ -1,13 +1,13 @@
 <div align="center">
   <h1>Klinko AI 市场研究 Skills</h1>
-  <p><strong>12 个证据驱动的 Skills，覆盖圈层研究、市场验证、定位、内容与增长决策。</strong></p>
+  <p><strong>6 个核心 Skills，覆盖圈层研究、市场验证、定位与内容决策。</strong></p>
   <p>
     <a href="./README.md">🇺🇸 English</a> ·
     <a href="./README.zh-CN.md">🇨🇳 简体中文</a> ·
     <a href="./README.zh-TW.md">🇭🇰 繁體中文</a>
   </p>
   <p>
-    <a href="#12-个市场研究-skills">🌐 浏览全部 Skills</a> ·
+    <a href="#6-个核心市场研究-skills">🌐 浏览核心 Skills</a> ·
     <a href="https://github.com/klinkoai">🏢 GitHub Organization</a> ·
     <a href="https://home.klinko.ai">🚀 开始市场研究</a>
   </p>
@@ -25,30 +25,24 @@
 
 ## 网站预览
 
-![Klinko 的 12 个 AI 市场研究 Skills](./assets/screenshots/skills-hub-zh.jpg)
+![Klinko 的 6 个核心 AI 市场研究 Skills](./assets/screenshots/skills-hub-zh.jpg)
 
 ![圈层对比 AI 市场研究 Skill](./assets/screenshots/audience-comparator-en.jpg)
 
-## 12 个市场研究 Skills
+## 6 个核心市场研究 Skills
 
-根据眼前需要做出的决定选择对应 Skill。每个 Skill 都定义了专门的输入、判断标准、证据边界、输出和下一步验证。
+Klinko 将公开目录聚焦到 6 个边界清晰、价值最高的市场决策。每个 Skill 都定义了专门的输入、判断标准、证据边界、输出和下一步验证。
 
 | Skill | 支持的决策 |
 | --- | --- |
 | [圈层发现器](./references/workflow-audience-finder.md) | 应该先研究哪个圈层？ |
-| [细分圈层发现](./references/workflow-niche-audience-discovery.md) | 哪个被忽略的细分市场真实且未被满足？ |
-| [圈层对比器](./references/workflow-audience-comparator.md) | 多个候选圈层中应该优先选择谁？ |
+| [客户痛点分析](./references/workflow-customer-pain-point-analyst.md) | 哪个重复问题正在形成真实需求？ |
 | [市场机会分析](./references/workflow-market-opportunity-analyst.md) | 哪个市场机会最值得先验证？ |
 | [创业想法验证](./references/workflow-startup-idea-validator.md) | 哪项关键假设可能让想法失败？ |
-| [早期采用者发现](./references/workflow-early-adopter-finder.md) | 谁最可能率先尝试产品？ |
-| [买家画像构建器](./references/workflow-buyer-persona-builder.md) | 什么因素推动选定圈层购买？ |
-| [客户痛点分析](./references/workflow-customer-pain-point-analyst.md) | 哪个重复问题正在形成真实需求？ |
 | [定位策略](./references/workflow-positioning-strategist.md) | 什么定位和信息值得测试？ |
 | [内容策略构建](./references/workflow-content-strategy-builder.md) | 哪些主题、形式和渠道应优先投入？ |
-| [创意简报生成](./references/workflow-creative-brief-generator.md) | 如何把证据转化为可执行创意简报？ |
-| [传播模式分析](./references/workflow-viral-pattern-analyzer.md) | 哪些内容机制可能重复？ |
 
-每个 Skill 都在 [github.com/klinkoai](https://github.com/klinkoai) 拥有独立介绍仓库，包含示例、能力边界和相关研究决策。
+这 6 个核心 Skills 从圈层发现一路覆盖到市场行动，避免把相近搜索意图拆成过多公开选项。安装包仍保留需要时可调用的其他研究操作。
 
 ## 安装包结构
 
@@ -68,7 +62,7 @@ ai-market-research-skills/
 - [Codex CLI 与桌面 App](./docs/codex.md) — 已验证
 - [Claude Code](./docs/claude-code.md) — 已验证
 
-MCP 运行层提供 `match_submit`、`match_get`、`circle_knowledge` 和 `persona_knowledge`。12 个 Skills 与鉴权运行层均已完成。
+MCP 运行层提供 `match_submit`、`match_get`、`circle_knowledge` 和 `persona_knowledge`。6 个核心 Skills 与鉴权运行层均已完成。
 
 ## 文档
 

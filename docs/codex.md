@@ -1,6 +1,6 @@
 # Connect Klinko MCP to Codex
 
-Klinko's twelve market research workflows run on one authenticated remote MCP server. This setup has been validated with Codex CLI and the Codex desktop app.
+Klinko's market research capabilities run on an authenticated remote MCP server. This setup has been validated with Codex CLI and the Codex desktop app.
 
 ## Access
 

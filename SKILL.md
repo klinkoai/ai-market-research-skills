@@ -1,11 +1,11 @@
 ---
 name: klinko-market-research
-description: "Run evidence-led market research with Klinko across twelve workflows: audience finding, niche discovery, audience comparison, market opportunity analysis, startup idea validation, early adopter discovery, buyer persona building, customer pain point analysis, positioning, content strategy, creative briefing, and viral pattern analysis. Use when users need to decide who to serve, what market gap to pursue, what to validate, how to position an offer, what content to create, or how to turn public market signals into a ranked next action."
+description: "Run evidence-led market research with Klinko for audience finding, market opportunity analysis, startup idea validation, customer pain point analysis, positioning, content strategy, and related research decisions. Use when users need to decide who to serve, what market gap to pursue, what to validate, how to position an offer, what content to create, or how to turn public market signals into a ranked next action."
 ---
 
 # Klinko Market Research
 
-Route each market question to one of twelve focused workflows over the authenticated Klinko MCP runtime.
+Route each market question to the focused research operation that best supports the decision over the authenticated Klinko MCP runtime.
 
 ## Preflight
 
