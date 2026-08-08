@@ -1,17 +1,19 @@
 <div align="center">
   <h1>Klinko AI Market Research Skills</h1>
-  <p><strong>Six core skills for audience research, market validation, positioning, and content decisions.</strong></p>
+  <p><strong>Evidence-led market research for Codex and Claude Code.</strong></p>
   <p>
     <a href="./README.md">🇺🇸 English</a> ·
     <a href="./README.zh-CN.md">🇨🇳 简体中文</a> ·
     <a href="./README.zh-TW.md">🇭🇰 繁體中文</a>
   </p>
   <p>
-    <a href="#six-core-market-research-skills">🌐 Explore the core skills</a> ·
+    <a href="#six-core-market-research-skills">🌐 Explore the Skills</a> ·
     <a href="https://github.com/klinkoai">🏢 Organization</a> ·
     <a href="https://home.klinko.ai">🚀 Start Market Research</a>
   </p>
 </div>
+
+Klinko turns public market signals into a prioritized decision: **who to serve, what they need, where the opportunity is, and what to test next**. Use the six focused Skills below directly in Codex or Claude Code through the authenticated Klinko MCP connection.
 
 ## Install with one prompt
 
@@ -25,24 +27,55 @@ An authorized Klinko API key is required for live research. See the [Codex guide
 
 ## Website preview
 
-![Klinko AI Market Research Skills catalog](./assets/screenshots/skills-hub-en.jpg)
+![Klinko AI Market Research Skills catalog](./assets/screenshots/skills-hub-en-current.jpg)
 
-![Klinko AI market research skill interface preview](./assets/screenshots/audience-comparator-en.jpg)
+Open a focused Skill below or visit the [Klinko website](https://klinko.ai/en/).
 
 ## Six core market research skills
 
 Klinko focuses its public catalog on six distinct, high-value market decisions. Each skill defines focused inputs, evaluation criteria, evidence boundaries, outputs, and a next validation step.
 
-| Skill | Decision it supports |
-| --- | --- |
-| [Audience Finder](./references/workflow-audience-finder.md) | Which audience should we investigate first? |
-| [Customer Pain Point Analyst](./references/workflow-customer-pain-point-analyst.md) | Which recurring problem creates meaningful demand? |
-| [Market Opportunity Analyst](./references/workflow-market-opportunity-analyst.md) | Which market opportunity deserves validation first? |
-| [Startup Idea Validator](./references/workflow-startup-idea-validator.md) | Which assumption could invalidate the idea? |
-| [Positioning Strategist](./references/workflow-positioning-strategist.md) | What position and message are worth testing? |
-| [Content Strategy Builder](./references/workflow-content-strategy-builder.md) | Which content themes and channels deserve priority? |
+| Skill | Decision it supports | Guide |
+| --- | --- | --- |
+| **Audience Finder** | Which audience should we serve first? | [Open guide](./references/workflow-audience-finder.md) |
+| **Customer Pain Point Analyst** | Which recurring problem creates meaningful demand? | [Open guide](./references/workflow-customer-pain-point-analyst.md) |
+| **Market Opportunity Analyst** | Which market opportunity deserves validation first? | [Open guide](./references/workflow-market-opportunity-analyst.md) |
+| **Startup Idea Validator** | Which assumption could invalidate the idea? | [Open guide](./references/workflow-startup-idea-validator.md) |
+| **Positioning Strategist** | What position and message are worth testing? | [Open guide](./references/workflow-positioning-strategist.md) |
+| **Content Strategy Builder** | Which content themes, formats, and channels deserve priority? | [Open guide](./references/workflow-content-strategy-builder.md) |
 
-The core skills cover the full path from audience discovery to market action without splitting closely related search intents across too many public choices. Additional research operations remain available inside the installed package when they are needed.
+<table>
+  <tr>
+    <td width="33%"><a href="./references/workflow-audience-finder.md"><img src="./assets/skills/audience-finder.webp" alt="Audience Finder visual"><br><strong>Audience Finder</strong></a></td>
+    <td width="33%"><a href="./references/workflow-customer-pain-point-analyst.md"><img src="./assets/skills/customer-pain-point-analyst.webp" alt="Customer Pain Point Analyst visual"><br><strong>Customer Pain Point Analyst</strong></a></td>
+    <td width="33%"><a href="./references/workflow-market-opportunity-analyst.md"><img src="./assets/skills/market-opportunity-analyst.webp" alt="Market Opportunity Analyst visual"><br><strong>Market Opportunity Analyst</strong></a></td>
+  </tr>
+  <tr>
+    <td width="33%"><a href="./references/workflow-startup-idea-validator.md"><img src="./assets/skills/startup-idea-validator.webp" alt="Startup Idea Validator visual"><br><strong>Startup Idea Validator</strong></a></td>
+    <td width="33%"><a href="./references/workflow-positioning-strategist.md"><img src="./assets/skills/positioning-strategist.webp" alt="Positioning Strategist visual"><br><strong>Positioning Strategist</strong></a></td>
+    <td width="33%"><a href="./references/workflow-content-strategy-builder.md"><img src="./assets/skills/content-strategy-builder.webp" alt="Content Strategy Builder visual"><br><strong>Content Strategy Builder</strong></a></td>
+  </tr>
+</table>
+
+## Example prompts
+
+### Audience research
+
+```text
+Use $klinko-market-research to find and rank the audience segments most worth serving for an AI meeting assistant built for small remote teams in the United States. Include where the leading segments can be reached and the next validation step.
+```
+
+### Market validation
+
+```text
+Use $klinko-market-research to identify the riskiest assumption in this startup idea, evaluate the available market evidence, and design the smallest credible test before we build.
+```
+
+### Positioning
+
+```text
+Use $klinko-market-research to turn this audience evidence, current alternatives, and customer language into a clear positioning direction with proof requirements and a testable message.
+```
 
 ## Package structure
 

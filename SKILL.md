@@ -5,7 +5,7 @@ description: "Run evidence-led market research with Klinko for audience finding,
 
 # Klinko Market Research
 
-Route each market question to the focused research operation that best supports the decision over the authenticated Klinko MCP runtime.
+Route each market question to the focused Skill that best supports the decision over the authenticated Klinko MCP runtime.
 
 ## Preflight
 
@@ -19,17 +19,11 @@ Route each market question to the focused research operation that best supports 
 Read only the workflow that matches the user's decision:
 
 - Find or rank audiences: [Audience Finder](references/workflow-audience-finder.md)
-- Discover overlooked niches: [Niche Audience Discovery](references/workflow-niche-audience-discovery.md)
-- Compare named audiences: [Audience Comparator](references/workflow-audience-comparator.md)
+- Analyze recurring unmet problems: [Customer Pain Point Analyst](references/workflow-customer-pain-point-analyst.md)
 - Rank market opportunities: [Market Opportunity Analyst](references/workflow-market-opportunity-analyst.md)
 - Validate a startup idea: [Startup Idea Validator](references/workflow-startup-idea-validator.md)
-- Identify likely first adopters: [Early Adopter Finder](references/workflow-early-adopter-finder.md)
-- Build a buying-behavior persona: [Buyer Persona Builder](references/workflow-buyer-persona-builder.md)
-- Analyze recurring unmet problems: [Customer Pain Point Analyst](references/workflow-customer-pain-point-analyst.md)
 - Develop positioning and messaging: [Positioning Strategist](references/workflow-positioning-strategist.md)
 - Prioritize content direction: [Content Strategy Builder](references/workflow-content-strategy-builder.md)
-- Turn strategy into an execution brief: [Creative Brief Generator](references/workflow-creative-brief-generator.md)
-- Analyze repeatable content mechanisms: [Viral Pattern Analyzer](references/workflow-viral-pattern-analyzer.md)
 
 If a request spans multiple decisions, name the sequence and run only the first decision needed to unlock the next. Do not trigger several billable workflows when one answer is sufficient.
 

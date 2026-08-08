@@ -8,6 +8,8 @@
   </p>
 </div>
 
+![Audience Finder market research visual](../assets/skills/audience-finder.webp)
+
 ## What is Klinko Audience Finder?
 
 Klinko Audience Finder is an AI market research skill for identifying promising customer and community segments around a product, idea, category, or market. It turns a broad audience question into a prioritized shortlist, explains why each segment matters, and gives teams a clearer starting point for research, positioning, acquisition, and validation.
@@ -126,9 +128,9 @@ This skill uses the authenticated Klinko MCP runtime and returns decision-ready 
 
 ## Related Klinko skills
 
-- [Niche Audience Discovery](https://github.com/klinkoai/klinko-niche-audience-discovery)
-- [Audience Comparator](https://github.com/klinkoai/klinko-audience-comparator)
-- [Early Adopter Finder](https://github.com/klinkoai/klinko-early-adopter-finder)
+- [Customer Pain Point Analyst](./workflow-customer-pain-point-analyst.md)
+- [Market Opportunity Analyst](./workflow-market-opportunity-analyst.md)
+- [Startup Idea Validator](./workflow-startup-idea-validator.md)
 
 ## Research and editorial standard
 

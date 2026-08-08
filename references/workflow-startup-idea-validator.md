@@ -8,6 +8,8 @@
   </p>
 </div>
 
+![Startup Idea Validator market research visual](../assets/skills/startup-idea-validator.webp)
+
 ## What is Klinko Startup Idea Validator?
 
 Klinko Startup Idea Validator is an AI market research skill for early-stage evaluation of a product or business concept. It examines the intended audience, the problem being solved, likely motivation, alternative behaviors, positioning assumptions, and market opportunity so founders can identify weak points and decide what evidence to gather before building further.
@@ -108,7 +110,7 @@ Build the smallest artifact required to test the next critical behavior. Avoid b
 - [Codex](https://openai.com/codex/)
 - [Claude Code](https://www.anthropic.com/claude-code)
 
-This Skill is complete and available through the [Klinko AI Market Research Skills repository](https://github.com/klinkoai/ai-market-research-skills). This repository is the public documentation page for Startup Idea Validator.
+This Skill is available through the [Klinko AI Market Research Skills repository](https://github.com/klinkoai/ai-market-research-skills).
 
 ## Klinko access
 
@@ -116,9 +118,9 @@ This skill uses the authenticated Klinko MCP runtime and returns decision-ready 
 
 ## Related Klinko skills
 
-- [Market Opportunity Analyst](https://github.com/klinkoai/klinko-market-opportunity-analyst)
-- [Early Adopter Finder](https://github.com/klinkoai/klinko-early-adopter-finder)
-- [Customer Pain Point Analyst](https://github.com/klinkoai/klinko-customer-pain-point-analyst)
+- [Market Opportunity Analyst](./workflow-market-opportunity-analyst.md)
+- [Audience Finder](./workflow-audience-finder.md)
+- [Customer Pain Point Analyst](./workflow-customer-pain-point-analyst.md)
 
 ## Research and editorial standard
 

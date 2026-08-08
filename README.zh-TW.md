@@ -1,12 +1,12 @@
 <div align="center">
   <h1>Klinko AI 市場研究 Skills</h1>
-  <p><strong>6 個核心 Skills，涵蓋受眾研究、市場驗證、定位與內容決策。</strong></p>
+  <p><strong>直接在 Codex 與 Claude Code 中執行證據導向的市場研究。</strong></p>
   <p>
     <a href="./README.md">🇺🇸 English</a> ·
     <a href="./README.zh-CN.md">🇨🇳 简体中文</a> ·
     <a href="./README.zh-TW.md">🇭🇰 繁體中文</a>
   </p>
-  <p><a href="https://klinko.ai/en/skills/">🌐 瀏覽全部 Skills</a> · <a href="https://github.com/klinkoai">🏢 GitHub Organization</a></p>
+  <p><a href="#6-個核心市場研究-skills">🌐 瀏覽 Skills</a> · <a href="https://github.com/klinkoai">🏢 GitHub Organization</a></p>
 </div>
 
 ## 用一句提示詞安裝
@@ -19,9 +19,14 @@
 
 Klinko 將公開目錄聚焦到 6 個邊界清楚、價值最高的市場決策。每個 Skill 都定義專門的輸入、判斷標準、證據邊界、輸出與下一步驗證。
 
-6 個核心 Skills 包括受眾發現、客戶痛點、市場機會、創業想法驗證、定位與內容策略。
-
-這 6 個核心 Skills 從受眾發現一路涵蓋到市場行動，避免把相近搜尋意圖拆成過多公開選項。安裝包仍保留需要時可呼叫的其他研究操作。
+| Skill | 支援的決策 | 詳細說明 |
+| --- | --- | --- |
+| **受眾發現器** | 應該先服務哪個受眾？ | [開啟說明](./references/workflow-audience-finder.md) |
+| **客戶痛點分析** | 哪個重複問題正在形成真實需求？ | [開啟說明](./references/workflow-customer-pain-point-analyst.md) |
+| **市場機會分析** | 哪個市場機會最值得先驗證？ | [開啟說明](./references/workflow-market-opportunity-analyst.md) |
+| **創業想法驗證** | 哪項關鍵假設可能讓想法失敗？ | [開啟說明](./references/workflow-startup-idea-validator.md) |
+| **定位策略** | 什麼定位與訊息值得測試？ | [開啟說明](./references/workflow-positioning-strategist.md) |
+| **內容策略建構** | 哪些主題、形式與渠道應優先投入？ | [開啟說明](./references/workflow-content-strategy-builder.md) |
 
 ## 支援客戶端
 

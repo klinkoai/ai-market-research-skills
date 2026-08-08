@@ -1,17 +1,19 @@
 <div align="center">
   <h1>Klinko AI 市场研究 Skills</h1>
-  <p><strong>6 个核心 Skills，覆盖圈层研究、市场验证、定位与内容决策。</strong></p>
+  <p><strong>直接在 Codex 和 Claude Code 中运行证据驱动的市场研究。</strong></p>
   <p>
     <a href="./README.md">🇺🇸 English</a> ·
     <a href="./README.zh-CN.md">🇨🇳 简体中文</a> ·
     <a href="./README.zh-TW.md">🇭🇰 繁體中文</a>
   </p>
   <p>
-    <a href="#6-个核心市场研究-skills">🌐 浏览核心 Skills</a> ·
+    <a href="#6-个核心市场研究-skills">🌐 浏览 Skills</a> ·
     <a href="https://github.com/klinkoai">🏢 GitHub Organization</a> ·
     <a href="https://home.klinko.ai">🚀 开始市场研究</a>
   </p>
 </div>
+
+Klinko 把公开市场信号转化为有优先级的市场决定：**服务谁、他们需要什么、机会在哪里，以及下一步验证什么**。连接带鉴权的 Klinko MCP 后，可直接在 Codex 或 Claude Code 中使用下面 6 个专门的市场研究 Skills。
 
 ## 用一句提示词安装
 
@@ -25,24 +27,32 @@
 
 ## 网站预览
 
-![Klinko 的 6 个核心 AI 市场研究 Skills](./assets/screenshots/skills-hub-zh.jpg)
+![Klinko 的 6 个 AI 市场研究 Skills](./assets/screenshots/skills-hub-zh-current.jpg)
 
-![圈层对比 AI 市场研究 Skill](./assets/screenshots/audience-comparator-en.jpg)
+直接打开下面的专门 Skill 说明，或访问 [Klinko 中文网站](https://klinko.ai/zh/)。
 
 ## 6 个核心市场研究 Skills
 
 Klinko 将公开目录聚焦到 6 个边界清晰、价值最高的市场决策。每个 Skill 都定义了专门的输入、判断标准、证据边界、输出和下一步验证。
 
-| Skill | 支持的决策 |
-| --- | --- |
-| [圈层发现器](./references/workflow-audience-finder.md) | 应该先研究哪个圈层？ |
-| [客户痛点分析](./references/workflow-customer-pain-point-analyst.md) | 哪个重复问题正在形成真实需求？ |
-| [市场机会分析](./references/workflow-market-opportunity-analyst.md) | 哪个市场机会最值得先验证？ |
-| [创业想法验证](./references/workflow-startup-idea-validator.md) | 哪项关键假设可能让想法失败？ |
-| [定位策略](./references/workflow-positioning-strategist.md) | 什么定位和信息值得测试？ |
-| [内容策略构建](./references/workflow-content-strategy-builder.md) | 哪些主题、形式和渠道应优先投入？ |
+| Skill | 支持的决策 | 详细说明 |
+| --- | --- | --- |
+| **圈层发现器** | 应该先服务哪个圈层？ | [打开说明](./references/workflow-audience-finder.md) |
+| **客户痛点分析** | 哪个重复问题正在形成真实需求？ | [打开说明](./references/workflow-customer-pain-point-analyst.md) |
+| **市场机会分析** | 哪个市场机会最值得先验证？ | [打开说明](./references/workflow-market-opportunity-analyst.md) |
+| **创业想法验证** | 哪项关键假设可能让想法失败？ | [打开说明](./references/workflow-startup-idea-validator.md) |
+| **定位策略** | 什么定位和信息值得测试？ | [打开说明](./references/workflow-positioning-strategist.md) |
+| **内容策略构建** | 哪些主题、形式和渠道应优先投入？ | [打开说明](./references/workflow-content-strategy-builder.md) |
 
-这 6 个核心 Skills 从圈层发现一路覆盖到市场行动，避免把相近搜索意图拆成过多公开选项。安装包仍保留需要时可调用的其他研究操作。
+## 示例提示词
+
+```text
+使用 $klinko-market-research，为一款面向美国远程小团队的 AI 会议助手寻找并排序最值得优先服务的用户圈层，并说明可以通过哪些渠道触达领先圈层，以及下一步应验证什么。
+```
+
+```text
+使用 $klinko-market-research，找出这个创业想法最危险的假设，用已有市场证据进行评估，并设计开发前最小、可信的验证测试。
+```
 
 ## 安装包结构
 

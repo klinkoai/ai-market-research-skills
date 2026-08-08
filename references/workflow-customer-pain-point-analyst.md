@@ -8,6 +8,8 @@
   </p>
 </div>
 
+![Customer Pain Point Analyst market research visual](../assets/skills/customer-pain-point-analyst.webp)
+
 ## What is Klinko Customer Pain Point Analyst?
 
 Klinko Customer Pain Point Analyst is an AI market research skill for turning broad customer complaints into structured problem themes. It helps teams distinguish symptoms from underlying needs, compare frequency and intensity, understand the situations in which pain appears, and prioritize problems that deserve product, positioning, service, or content responses.
@@ -108,7 +110,7 @@ Confirm the situation, consequence, and workaround with affected people. Then te
 - [Codex](https://openai.com/codex/)
 - [Claude Code](https://www.anthropic.com/claude-code)
 
-This Skill is complete and available through the [Klinko AI Market Research Skills repository](https://github.com/klinkoai/ai-market-research-skills). This repository is the public documentation page for Customer Pain Point Analyst.
+This Skill is available through the [Klinko AI Market Research Skills repository](https://github.com/klinkoai/ai-market-research-skills).
 
 ## Klinko access
 
@@ -116,9 +118,9 @@ This skill uses the authenticated Klinko MCP runtime and returns decision-ready 
 
 ## Related Klinko skills
 
-- [Buyer Persona Builder](https://github.com/klinkoai/klinko-buyer-persona-builder)
-- [Positioning Strategist](https://github.com/klinkoai/klinko-positioning-strategist)
-- [Startup Idea Validator](https://github.com/klinkoai/klinko-startup-idea-validator)
+- [Audience Finder](./workflow-audience-finder.md)
+- [Positioning Strategist](./workflow-positioning-strategist.md)
+- [Startup Idea Validator](./workflow-startup-idea-validator.md)
 
 ## Research and editorial standard
 

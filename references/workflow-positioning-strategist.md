@@ -8,6 +8,8 @@
   </p>
 </div>
 
+![Positioning Strategist market research visual](../assets/skills/positioning-strategist.webp)
+
 ## What is Klinko Positioning Strategist?
 
 Klinko Positioning Strategist is an AI market research skill for developing a clearer market position from audience context, customer problems, alternatives, and opportunity gaps. It helps teams define who a product is for, what meaningful problem it addresses, why the approach is different, and which message direction is easiest for the intended audience to understand.
@@ -109,7 +111,7 @@ Test whether the intended audience recognizes itself, understands the category, 
 - [Codex](https://openai.com/codex/)
 - [Claude Code](https://www.anthropic.com/claude-code)
 
-This Skill is complete and available through the [Klinko AI Market Research Skills repository](https://github.com/klinkoai/ai-market-research-skills). This repository is the public documentation page for Positioning Strategist.
+This Skill is available through the [Klinko AI Market Research Skills repository](https://github.com/klinkoai/ai-market-research-skills).
 
 ## Klinko access
 
@@ -117,9 +119,9 @@ This skill uses the authenticated Klinko MCP runtime and returns decision-ready 
 
 ## Related Klinko skills
 
-- [Buyer Persona Builder](https://github.com/klinkoai/klinko-buyer-persona-builder)
-- [Customer Pain Point Analyst](https://github.com/klinkoai/klinko-customer-pain-point-analyst)
-- [Content Strategy Builder](https://github.com/klinkoai/klinko-content-strategy-builder)
+- [Audience Finder](./workflow-audience-finder.md)
+- [Customer Pain Point Analyst](./workflow-customer-pain-point-analyst.md)
+- [Content Strategy Builder](./workflow-content-strategy-builder.md)
 
 ## Research and editorial standard
 

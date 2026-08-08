@@ -8,6 +8,8 @@
   </p>
 </div>
 
+![Market Opportunity Analyst market research visual](../assets/skills/market-opportunity-analyst.webp)
+
 ## What is Klinko Market Opportunity Analyst?
 
 Klinko Market Opportunity Analyst is an AI market research skill for turning scattered market possibilities into a structured opportunity assessment. It helps teams compare audience demand, problem relevance, strategic fit, market gaps, and practical constraints, then produces a prioritized view of where further research, product discovery, or commercial validation should begin.
@@ -108,7 +110,7 @@ A useful test creates observable evidence: recruitment response from a defined a
 - [Codex](https://openai.com/codex/)
 - [Claude Code](https://www.anthropic.com/claude-code)
 
-This Skill is complete and available through the [Klinko AI Market Research Skills repository](https://github.com/klinkoai/ai-market-research-skills). This repository is the public documentation page for Market Opportunity Analyst.
+This Skill is available through the [Klinko AI Market Research Skills repository](https://github.com/klinkoai/ai-market-research-skills).
 
 ## Klinko access
 
@@ -116,9 +118,9 @@ This skill uses the authenticated Klinko MCP runtime and returns decision-ready 
 
 ## Related Klinko skills
 
-- [Startup Idea Validator](https://github.com/klinkoai/klinko-startup-idea-validator)
-- [Niche Audience Discovery](https://github.com/klinkoai/klinko-niche-audience-discovery)
-- [Audience Comparator](https://github.com/klinkoai/klinko-audience-comparator)
+- [Audience Finder](./workflow-audience-finder.md)
+- [Startup Idea Validator](./workflow-startup-idea-validator.md)
+- [Customer Pain Point Analyst](./workflow-customer-pain-point-analyst.md)
 
 ## Research and editorial standard
 

@@ -8,6 +8,8 @@
   </p>
 </div>
 
+![Content Strategy Builder market research visual](../assets/skills/content-strategy-builder.webp)
+
 ## What is Klinko Content Strategy Builder?
 
 Klinko Content Strategy Builder is an AI market research skill for turning audience needs, questions, motivations, and decision stages into a focused content plan. It helps teams select themes, angles, formats, and priorities that serve a defined audience and business goal instead of producing disconnected topics or generic publishing calendars.
@@ -109,7 +111,7 @@ Measure the behavior appropriate to its role: qualified discovery, engaged readi
 - [Codex](https://openai.com/codex/)
 - [Claude Code](https://www.anthropic.com/claude-code)
 
-This Skill is complete and available through the [Klinko AI Market Research Skills repository](https://github.com/klinkoai/ai-market-research-skills). This repository is the public documentation page for Content Strategy Builder.
+This Skill is available through the [Klinko AI Market Research Skills repository](https://github.com/klinkoai/ai-market-research-skills).
 
 ## Klinko access
 
@@ -117,9 +119,9 @@ This skill uses the authenticated Klinko MCP runtime and returns decision-ready 
 
 ## Related Klinko skills
 
-- [Positioning Strategist](https://github.com/klinkoai/klinko-positioning-strategist)
-- [Creative Brief Generator](https://github.com/klinkoai/klinko-creative-brief-generator)
-- [Viral Pattern Analyzer](https://github.com/klinkoai/klinko-viral-pattern-analyzer)
+- [Positioning Strategist](./workflow-positioning-strategist.md)
+- [Customer Pain Point Analyst](./workflow-customer-pain-point-analyst.md)
+- [Market Opportunity Analyst](./workflow-market-opportunity-analyst.md)
 
 ## Research and editorial standard
 
