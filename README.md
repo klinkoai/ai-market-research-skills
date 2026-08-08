@@ -7,7 +7,7 @@
     <a href="./README.zh-TW.md">🇭🇰 繁體中文</a>
   </p>
   <p>
-    <a href="https://klinko.ai/en/skills/">🌐 Explore all skills</a> ·
+    <a href="#12-market-research-skills">🌐 Explore all skills</a> ·
     <a href="https://github.com/klinkoai">🏢 Organization</a> ·
     <a href="https://home.klinko.ai">🚀 Start Market Research</a>
   </p>
@@ -35,20 +35,20 @@ Choose the skill that matches the decision in front of you. Each skill defines f
 
 | Skill | Decision it supports |
 | --- | --- |
-| [Audience Finder](https://klinko.ai/en/skills/audience-finder/) · [instructions](./references/workflow-audience-finder.md) | Which audience should we investigate first? |
-| [Niche Audience Discovery](https://klinko.ai/en/skills/niche-audience-discovery/) · [instructions](./references/workflow-niche-audience-discovery.md) | Which overlooked niche is coherent and underserved? |
-| [Audience Comparator](https://klinko.ai/en/skills/audience-comparator/) · [instructions](./references/workflow-audience-comparator.md) | Which candidate audience is the stronger choice? |
-| [Market Opportunity Analyst](https://klinko.ai/en/skills/market-opportunity-analyst/) · [instructions](./references/workflow-market-opportunity-analyst.md) | Which market opportunity deserves validation first? |
-| [Startup Idea Validator](https://klinko.ai/en/skills/startup-idea-validator/) · [instructions](./references/workflow-startup-idea-validator.md) | Which assumption could invalidate the idea? |
-| [Early Adopter Finder](https://klinko.ai/en/skills/early-adopter-finder/) · [instructions](./references/workflow-early-adopter-finder.md) | Who is most likely to try the offer first? |
-| [Buyer Persona Builder](https://klinko.ai/en/skills/buyer-persona-builder/) · [instructions](./references/workflow-buyer-persona-builder.md) | What drives the selected audience's buying behavior? |
-| [Customer Pain Point Analyst](https://klinko.ai/en/skills/customer-pain-point-analyst/) · [instructions](./references/workflow-customer-pain-point-analyst.md) | Which recurring problem creates meaningful demand? |
-| [Positioning Strategist](https://klinko.ai/en/skills/positioning-strategist/) · [instructions](./references/workflow-positioning-strategist.md) | What position and message are worth testing? |
-| [Content Strategy Builder](https://klinko.ai/en/skills/content-strategy-builder/) · [instructions](./references/workflow-content-strategy-builder.md) | Which content themes and channels deserve priority? |
-| [Creative Brief Generator](https://klinko.ai/en/skills/creative-brief-generator/) · [instructions](./references/workflow-creative-brief-generator.md) | How should evidence become an execution-ready brief? |
-| [Viral Pattern Analyzer](https://klinko.ai/en/skills/viral-pattern-analyzer/) · [instructions](./references/workflow-viral-pattern-analyzer.md) | Which content mechanisms appear repeatable? |
+| [Audience Finder](./references/workflow-audience-finder.md) | Which audience should we investigate first? |
+| [Niche Audience Discovery](./references/workflow-niche-audience-discovery.md) | Which overlooked niche is coherent and underserved? |
+| [Audience Comparator](./references/workflow-audience-comparator.md) | Which candidate audience is the stronger choice? |
+| [Market Opportunity Analyst](./references/workflow-market-opportunity-analyst.md) | Which market opportunity deserves validation first? |
+| [Startup Idea Validator](./references/workflow-startup-idea-validator.md) | Which assumption could invalidate the idea? |
+| [Early Adopter Finder](./references/workflow-early-adopter-finder.md) | Who is most likely to try the offer first? |
+| [Buyer Persona Builder](./references/workflow-buyer-persona-builder.md) | What drives the selected audience's buying behavior? |
+| [Customer Pain Point Analyst](./references/workflow-customer-pain-point-analyst.md) | Which recurring problem creates meaningful demand? |
+| [Positioning Strategist](./references/workflow-positioning-strategist.md) | What position and message are worth testing? |
+| [Content Strategy Builder](./references/workflow-content-strategy-builder.md) | Which content themes and channels deserve priority? |
+| [Creative Brief Generator](./references/workflow-creative-brief-generator.md) | How should evidence become an execution-ready brief? |
+| [Viral Pattern Analyzer](./references/workflow-viral-pattern-analyzer.md) | Which content mechanisms appear repeatable? |
 
-Each skill also has a focused public page under [github.com/klinkoai](https://github.com/klinkoai) and on [klinko.ai](https://klinko.ai/en/skills/), with examples, limitations, and related research decisions.
+Each skill also has a focused public repository under [github.com/klinkoai](https://github.com/klinkoai), with examples, limitations, and related research decisions.
 
 ## Package structure
 
