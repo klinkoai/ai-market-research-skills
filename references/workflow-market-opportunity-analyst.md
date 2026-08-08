@@ -1,16 +1,12 @@
-<div align="center">
-  <h1>📈 Klinko Market Opportunity Analyst</h1>
-  <p><strong>Rank market opportunities and decide what deserves validation first.</strong></p>
-  <p>
-    <a href="https://github.com/klinkoai/ai-market-research-skills">⬇️ Install Klinko Skills</a> ·
-    <a href="https://klinko.ai/en/">🌐 Klinko</a> ·
-    <a href="https://home.klinko.ai">🚀 Start Market Research</a>
-  </p>
-</div>
+<img align="right" width="400" src="../assets/skills/market-opportunity-analyst.webp" alt="Market Opportunity Analyst market research visual">
 
-<p align="center">
-  <img src="../assets/skills/market-opportunity-analyst.webp" alt="Market Opportunity Analyst market research visual" width="960">
-</p>
+# 📈 Klinko Market Opportunity Analyst
+
+**Rank market opportunities and decide what deserves validation first.**
+
+[⬇️ Install Klinko Skills](https://github.com/klinkoai/ai-market-research-skills) · [🌐 Klinko](https://klinko.ai/en/) · [🚀 Start Market Research](https://home.klinko.ai)
+
+<br clear="right">
 
 ## What is Klinko Market Opportunity Analyst?
 

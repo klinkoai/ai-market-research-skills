@@ -1,16 +1,12 @@
-<div align="center">
-  <h1>🧩 Klinko Customer Pain Point Analyst</h1>
-  <p><strong>Find recurring customer problems and identify which ones create demand.</strong></p>
-  <p>
-    <a href="https://github.com/klinkoai/ai-market-research-skills">⬇️ Install Klinko Skills</a> ·
-    <a href="https://klinko.ai/en/">🌐 Klinko</a> ·
-    <a href="https://home.klinko.ai">🚀 Start Market Research</a>
-  </p>
-</div>
+<img align="right" width="400" src="../assets/skills/customer-pain-point-analyst.webp" alt="Customer Pain Point Analyst market research visual">
 
-<p align="center">
-  <img src="../assets/skills/customer-pain-point-analyst.webp" alt="Customer Pain Point Analyst market research visual" width="960">
-</p>
+# 🧩 Klinko Customer Pain Point Analyst
+
+**Find recurring customer problems and identify which ones create demand.**
+
+[⬇️ Install Klinko Skills](https://github.com/klinkoai/ai-market-research-skills) · [🌐 Klinko](https://klinko.ai/en/) · [🚀 Start Market Research](https://home.klinko.ai)
+
+<br clear="right">
 
 ## What is Klinko Customer Pain Point Analyst?
 

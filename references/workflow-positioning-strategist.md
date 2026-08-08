@@ -1,16 +1,12 @@
-<div align="center">
-  <h1>🧭 Klinko Positioning Strategist</h1>
-  <p><strong>Turn audience needs and market gaps into sharper positioning.</strong></p>
-  <p>
-    <a href="https://github.com/klinkoai/ai-market-research-skills">⬇️ Install Klinko Skills</a> ·
-    <a href="https://klinko.ai/en/">🌐 Klinko</a> ·
-    <a href="https://home.klinko.ai">🚀 Start Market Research</a>
-  </p>
-</div>
+<img align="right" width="400" src="../assets/skills/positioning-strategist.webp" alt="Positioning Strategist market research visual">
 
-<p align="center">
-  <img src="../assets/skills/positioning-strategist.webp" alt="Positioning Strategist market research visual" width="960">
-</p>
+# 🧭 Klinko Positioning Strategist
+
+**Turn audience needs and market gaps into sharper positioning.**
+
+[⬇️ Install Klinko Skills](https://github.com/klinkoai/ai-market-research-skills) · [🌐 Klinko](https://klinko.ai/en/) · [🚀 Start Market Research](https://home.klinko.ai)
+
+<br clear="right">
 
 ## What is Klinko Positioning Strategist?
 
