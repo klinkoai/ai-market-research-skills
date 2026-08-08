@@ -19,14 +19,14 @@
 
 Klinko 將公開目錄聚焦到 6 個邊界清楚、價值最高的市場決策。每個 Skill 都定義專門的輸入、判斷標準、證據邊界、輸出與下一步驗證。
 
-| Skill | 支援的決策 | 詳細說明 |
-| --- | --- | --- |
-| **受眾發現器** | 應該先服務哪個受眾？ | [開啟說明](./references/workflow-audience-finder.md) |
-| **客戶痛點分析** | 哪個重複問題正在形成真實需求？ | [開啟說明](./references/workflow-customer-pain-point-analyst.md) |
-| **市場機會分析** | 哪個市場機會最值得先驗證？ | [開啟說明](./references/workflow-market-opportunity-analyst.md) |
-| **創業想法驗證** | 哪項關鍵假設可能讓想法失敗？ | [開啟說明](./references/workflow-startup-idea-validator.md) |
-| **定位策略** | 什麼定位與訊息值得測試？ | [開啟說明](./references/workflow-positioning-strategist.md) |
-| **內容策略建構** | 哪些主題、形式與渠道應優先投入？ | [開啟說明](./references/workflow-content-strategy-builder.md) |
+| Skill | 支援的決策 | 獨立倉庫 | 詳細說明 |
+| --- | --- | --- | --- |
+| **受眾發現器** | 應該先服務哪個受眾？ | [GitHub](https://github.com/klinkoai/klinko-audience-finder) | [開啟說明](./references/workflow-audience-finder.md) |
+| **客戶痛點分析** | 哪個重複問題正在形成真實需求？ | [GitHub](https://github.com/klinkoai/klinko-customer-pain-point-analyst) | [開啟說明](./references/workflow-customer-pain-point-analyst.md) |
+| **市場機會分析** | 哪個市場機會最值得先驗證？ | [GitHub](https://github.com/klinkoai/klinko-market-opportunity-analyst) | [開啟說明](./references/workflow-market-opportunity-analyst.md) |
+| **創業想法驗證** | 哪項關鍵假設可能讓想法失敗？ | [GitHub](https://github.com/klinkoai/klinko-startup-idea-validator) | [開啟說明](./references/workflow-startup-idea-validator.md) |
+| **定位策略** | 什麼定位與訊息值得測試？ | [GitHub](https://github.com/klinkoai/klinko-positioning-strategist) | [開啟說明](./references/workflow-positioning-strategist.md) |
+| **內容策略建構** | 哪些主題、形式與渠道應優先投入？ | [GitHub](https://github.com/klinkoai/klinko-content-strategy-builder) | [開啟說明](./references/workflow-content-strategy-builder.md) |
 
 ## 支援客戶端
 

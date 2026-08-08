@@ -35,25 +35,25 @@ Open a focused Skill below or visit the [Klinko Skill catalog](https://klinko.ai
 
 Klinko focuses its public catalog on six distinct, high-value market decisions. Each skill defines focused inputs, evaluation criteria, evidence boundaries, outputs, and a next validation step.
 
-| Skill | Decision it supports | Guide |
-| --- | --- | --- |
-| **Audience Finder** | Which audience should we serve first? | [Open guide](./references/workflow-audience-finder.md) |
-| **Customer Pain Point Analyst** | Which recurring problem creates meaningful demand? | [Open guide](./references/workflow-customer-pain-point-analyst.md) |
-| **Market Opportunity Analyst** | Which market opportunity deserves validation first? | [Open guide](./references/workflow-market-opportunity-analyst.md) |
-| **Startup Idea Validator** | Which assumption could invalidate the idea? | [Open guide](./references/workflow-startup-idea-validator.md) |
-| **Positioning Strategist** | What position and message are worth testing? | [Open guide](./references/workflow-positioning-strategist.md) |
-| **Content Strategy Builder** | Which content themes, formats, and channels deserve priority? | [Open guide](./references/workflow-content-strategy-builder.md) |
+| Skill | Decision it supports | Repository | Guide |
+| --- | --- | --- | --- |
+| **Audience Finder** | Which audience should we serve first? | [GitHub](https://github.com/klinkoai/klinko-audience-finder) | [Open guide](./references/workflow-audience-finder.md) |
+| **Customer Pain Point Analyst** | Which recurring problem creates meaningful demand? | [GitHub](https://github.com/klinkoai/klinko-customer-pain-point-analyst) | [Open guide](./references/workflow-customer-pain-point-analyst.md) |
+| **Market Opportunity Analyst** | Which market opportunity deserves validation first? | [GitHub](https://github.com/klinkoai/klinko-market-opportunity-analyst) | [Open guide](./references/workflow-market-opportunity-analyst.md) |
+| **Startup Idea Validator** | Which assumption could invalidate the idea? | [GitHub](https://github.com/klinkoai/klinko-startup-idea-validator) | [Open guide](./references/workflow-startup-idea-validator.md) |
+| **Positioning Strategist** | What position and message are worth testing? | [GitHub](https://github.com/klinkoai/klinko-positioning-strategist) | [Open guide](./references/workflow-positioning-strategist.md) |
+| **Content Strategy Builder** | Which content themes, formats, and channels deserve priority? | [GitHub](https://github.com/klinkoai/klinko-content-strategy-builder) | [Open guide](./references/workflow-content-strategy-builder.md) |
 
 <table>
   <tr>
-    <td width="33%"><a href="./references/workflow-audience-finder.md"><img src="./assets/skills/audience-finder.webp" alt="Audience Finder visual"><br><strong>Audience Finder</strong></a></td>
-    <td width="33%"><a href="./references/workflow-customer-pain-point-analyst.md"><img src="./assets/skills/customer-pain-point-analyst.webp" alt="Customer Pain Point Analyst visual"><br><strong>Customer Pain Point Analyst</strong></a></td>
-    <td width="33%"><a href="./references/workflow-market-opportunity-analyst.md"><img src="./assets/skills/market-opportunity-analyst.webp" alt="Market Opportunity Analyst visual"><br><strong>Market Opportunity Analyst</strong></a></td>
+    <td width="33%"><a href="https://github.com/klinkoai/klinko-audience-finder"><img src="./assets/skills/audience-finder.webp" alt="Audience Finder visual"><br><strong>Audience Finder</strong></a></td>
+    <td width="33%"><a href="https://github.com/klinkoai/klinko-customer-pain-point-analyst"><img src="./assets/skills/customer-pain-point-analyst.webp" alt="Customer Pain Point Analyst visual"><br><strong>Customer Pain Point Analyst</strong></a></td>
+    <td width="33%"><a href="https://github.com/klinkoai/klinko-market-opportunity-analyst"><img src="./assets/skills/market-opportunity-analyst.webp" alt="Market Opportunity Analyst visual"><br><strong>Market Opportunity Analyst</strong></a></td>
   </tr>
   <tr>
-    <td width="33%"><a href="./references/workflow-startup-idea-validator.md"><img src="./assets/skills/startup-idea-validator.webp" alt="Startup Idea Validator visual"><br><strong>Startup Idea Validator</strong></a></td>
-    <td width="33%"><a href="./references/workflow-positioning-strategist.md"><img src="./assets/skills/positioning-strategist.webp" alt="Positioning Strategist visual"><br><strong>Positioning Strategist</strong></a></td>
-    <td width="33%"><a href="./references/workflow-content-strategy-builder.md"><img src="./assets/skills/content-strategy-builder.webp" alt="Content Strategy Builder visual"><br><strong>Content Strategy Builder</strong></a></td>
+    <td width="33%"><a href="https://github.com/klinkoai/klinko-startup-idea-validator"><img src="./assets/skills/startup-idea-validator.webp" alt="Startup Idea Validator visual"><br><strong>Startup Idea Validator</strong></a></td>
+    <td width="33%"><a href="https://github.com/klinkoai/klinko-positioning-strategist"><img src="./assets/skills/positioning-strategist.webp" alt="Positioning Strategist visual"><br><strong>Positioning Strategist</strong></a></td>
+    <td width="33%"><a href="https://github.com/klinkoai/klinko-content-strategy-builder"><img src="./assets/skills/content-strategy-builder.webp" alt="Content Strategy Builder visual"><br><strong>Content Strategy Builder</strong></a></td>
   </tr>
 </table>
 

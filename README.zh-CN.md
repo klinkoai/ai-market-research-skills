@@ -35,14 +35,14 @@ Klinko 把公开市场信号转化为有优先级的市场决定：**服务谁�
 
 Klinko 将公开目录聚焦到 6 个边界清晰、价值最高的市场决策。每个 Skill 都定义了专门的输入、判断标准、证据边界、输出和下一步验证。
 
-| Skill | 支持的决策 | 详细说明 |
-| --- | --- | --- |
-| **圈层发现器** | 应该先服务哪个圈层？ | [打开说明](./references/workflow-audience-finder.md) |
-| **客户痛点分析** | 哪个重复问题正在形成真实需求？ | [打开说明](./references/workflow-customer-pain-point-analyst.md) |
-| **市场机会分析** | 哪个市场机会最值得先验证？ | [打开说明](./references/workflow-market-opportunity-analyst.md) |
-| **创业想法验证** | 哪项关键假设可能让想法失败？ | [打开说明](./references/workflow-startup-idea-validator.md) |
-| **定位策略** | 什么定位和信息值得测试？ | [打开说明](./references/workflow-positioning-strategist.md) |
-| **内容策略构建** | 哪些主题、形式和渠道应优先投入？ | [打开说明](./references/workflow-content-strategy-builder.md) |
+| Skill | 支持的决策 | 独立仓库 | 详细说明 |
+| --- | --- | --- | --- |
+| **圈层发现器** | 应该先服务哪个圈层？ | [GitHub](https://github.com/klinkoai/klinko-audience-finder) | [打开说明](./references/workflow-audience-finder.md) |
+| **客户痛点分析** | 哪个重复问题正在形成真实需求？ | [GitHub](https://github.com/klinkoai/klinko-customer-pain-point-analyst) | [打开说明](./references/workflow-customer-pain-point-analyst.md) |
+| **市场机会分析** | 哪个市场机会最值得先验证？ | [GitHub](https://github.com/klinkoai/klinko-market-opportunity-analyst) | [打开说明](./references/workflow-market-opportunity-analyst.md) |
+| **创业想法验证** | 哪项关键假设可能让想法失败？ | [GitHub](https://github.com/klinkoai/klinko-startup-idea-validator) | [打开说明](./references/workflow-startup-idea-validator.md) |
+| **定位策略** | 什么定位和信息值得测试？ | [GitHub](https://github.com/klinkoai/klinko-positioning-strategist) | [打开说明](./references/workflow-positioning-strategist.md) |
+| **内容策略构建** | 哪些主题、形式和渠道应优先投入？ | [GitHub](https://github.com/klinkoai/klinko-content-strategy-builder) | [打开说明](./references/workflow-content-strategy-builder.md) |
 
 ## 示例提示词
 
