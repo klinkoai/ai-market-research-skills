@@ -8,7 +8,9 @@
   </p>
 </div>
 
-![Customer Pain Point Analyst market research visual](../assets/skills/customer-pain-point-analyst.webp)
+<p align="center">
+  <img src="../assets/skills/customer-pain-point-analyst.webp" alt="Customer Pain Point Analyst market research visual" width="960">
+</p>
 
 ## What is Klinko Customer Pain Point Analyst?
 

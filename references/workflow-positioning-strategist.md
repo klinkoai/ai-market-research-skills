@@ -8,7 +8,9 @@
   </p>
 </div>
 
-![Positioning Strategist market research visual](../assets/skills/positioning-strategist.webp)
+<p align="center">
+  <img src="../assets/skills/positioning-strategist.webp" alt="Positioning Strategist market research visual" width="960">
+</p>
 
 ## What is Klinko Positioning Strategist?
 

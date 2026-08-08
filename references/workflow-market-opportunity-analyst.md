@@ -8,7 +8,9 @@
   </p>
 </div>
 
-![Market Opportunity Analyst market research visual](../assets/skills/market-opportunity-analyst.webp)
+<p align="center">
+  <img src="../assets/skills/market-opportunity-analyst.webp" alt="Market Opportunity Analyst market research visual" width="960">
+</p>
 
 ## What is Klinko Market Opportunity Analyst?
 

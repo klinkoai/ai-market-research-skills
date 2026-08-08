@@ -8,7 +8,9 @@
   </p>
 </div>
 
-![Content Strategy Builder market research visual](../assets/skills/content-strategy-builder.webp)
+<p align="center">
+  <img src="../assets/skills/content-strategy-builder.webp" alt="Content Strategy Builder market research visual" width="960">
+</p>
 
 ## What is Klinko Content Strategy Builder?
 

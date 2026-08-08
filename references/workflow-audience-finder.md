@@ -8,7 +8,9 @@
   </p>
 </div>
 
-![Audience Finder market research visual](../assets/skills/audience-finder.webp)
+<p align="center">
+  <img src="../assets/skills/audience-finder.webp" alt="Audience Finder market research visual" width="960">
+</p>
 
 ## What is Klinko Audience Finder?
 

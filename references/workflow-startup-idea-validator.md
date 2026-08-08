@@ -8,7 +8,9 @@
   </p>
 </div>
 
-![Startup Idea Validator market research visual](../assets/skills/startup-idea-validator.webp)
+<p align="center">
+  <img src="../assets/skills/startup-idea-validator.webp" alt="Startup Idea Validator market research visual" width="960">
+</p>
 
 ## What is Klinko Startup Idea Validator?
 
