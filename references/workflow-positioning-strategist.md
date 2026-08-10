@@ -73,7 +73,7 @@ The output can include an audience frame, category choice, core claim, proof req
 
 Positioning defines strategic meaning: who the offer is for, what it replaces, and why the difference matters. Messaging organizes the claims and proof a market should hear. Copywriting expresses those choices in a page, ad, email, or sales moment. Rewriting copy cannot solve an unresolved positioning decision.
 
-Buyer Persona Builder supplies buying triggers, objections, and trusted proof for a selected audience. Customer Pain Point Analyst clarifies the high-value problem. Positioning Strategist combines those inputs into a differentiated market frame.
+Audience Finder establishes which audience deserves priority and why. Customer Pain Point Analyst clarifies the high-value problem, current alternatives, and consequential needs. Positioning Strategist combines those inputs into a differentiated market frame.
 
 ## Evidence boundaries
 
@@ -127,8 +127,8 @@ This documentation is maintained by [Klinko Research](https://klinko.ai/en/about
 
 ## About Klinko
 
-[Klinko](https://klinko.ai/en/) is an audience decision engine that helps teams understand communities, customer needs, market opportunities, positioning, and content direction. Explore the complete [Klinko AI Market Research Skills](https://github.com/klinkoai/ai-market-research-skills).
+[Klinko](https://klinko.ai/en/) is an AI market research tool and Audience Decision Engine for target audience analysis, customer research, market opportunity discovery, validation, positioning, and content strategy. Explore the complete [Klinko AI Market Research Skills](https://github.com/klinkoai/ai-market-research-skills).
 
 ---
 
-Maintained by [Klinko](https://github.com/klinkoai) · Contact [business@klinko.ai](mailto:business@klinko.ai) · Last updated August 7, 2026
+Maintained by [Klinko](https://github.com/klinkoai) · Contact [business@klinko.ai](mailto:business@klinko.ai) · Last updated August 9, 2026

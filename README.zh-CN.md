@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Klinko AI 市场研究 Skills</h1>
-  <p><strong>直接在 Codex 和 Claude Code 中运行证据驱动的市场研究。</strong></p>
+  <p><strong>直接在 Codex 和 Claude Code 中完成目标用户分析、市场机会发现与验证。</strong></p>
   <p>
     <a href="./README.md">🇺🇸 English</a> ·
     <a href="./README.zh-CN.md">🇨🇳 简体中文</a> ·
@@ -13,7 +13,7 @@
   </p>
 </div>
 
-Klinko 把公开市场信号转化为有优先级的市场决定：**服务谁、他们需要什么、机会在哪里，以及下一步验证什么**。连接带鉴权的 Klinko MCP 后，可直接在 Codex 或 Claude Code 中使用下面 6 个专门的市场研究 Skills。
+Klinko 是一款 **AI 市场调研工具**，也是一套持续更新的圈层决策引擎，面向创业者、产品团队、产品营销与增长团队。它把公开市场信号转化为有优先级的市场决定：**应该先服务哪类目标用户、他们需要什么、市场机会在哪里，以及下一步验证什么**。连接带鉴权的 Klinko MCP 后，可直接在 Codex 或 Claude Code 中使用下面 6 个市场研究 Skills。
 
 ## 用一句提示词安装
 
@@ -25,6 +25,13 @@ Klinko 把公开市场信号转化为有优先级的市场决定：**服务谁�
 
 真实研究需要已授权的 Klinko API Key。手动配置请查看 [Codex 接入文档](./docs/codex.md)、[Claude Code 接入文档](./docs/claude-code.md)和[身份验证说明](./docs/authentication.md)。
 
+## Klinko 如何进行市场调研
+
+1. 先提出一个有关目标用户、客户痛点、市场机会、创业想法、产品定位或内容方向的决策问题。
+2. Klinko 通过带鉴权的 MCP 运行层整理相关公开市场信号。
+3. 对应的 Skill 会在排序之前区分证据、解释、反例与不确定性。
+4. 结果以一个可执行的验证步骤结束，而不是给出缺少证据的市场结论。
+
 ## 网站预览
 
 ![Klinko 的 6 个 AI 市场研究 Skills](./assets/screenshots/skills-hub-zh-current.png)
@@ -34,6 +41,8 @@ Klinko 把公开市场信号转化为有优先级的市场决定：**服务谁�
 ## 6 个核心市场研究 Skills
 
 Klinko 将公开目录聚焦到 6 个边界清晰、价值最高的市场决策。每个 Skill 都定义了专门的输入、判断标准、证据边界、输出和下一步验证。
+
+请从当前主仓库安装。下面 6 个独立仓库是面向各项能力的公开介绍页，分别提供决策示例、FAQ 与证据边界。
 
 | Skill | 支持的决策 | 独立仓库 | 详细说明 |
 | --- | --- | --- | --- |
@@ -83,6 +92,13 @@ MCP 运行层提供 `match_submit`、`match_get`、`circle_knowledge` 和 `perso
 - [机器可读目录](./catalog.json)
 - [安全政策](./SECURITY.md)
 
+## 研究与信任
+
+- [研究方法](https://klinko.ai/zh/research-methodology/) — 数据来源、证据处理、研究边界与更新标准
+- [关于 Klinko Research](https://klinko.ai/zh/about/) — 发布主体、编辑标准、纠错与公司信息
+
 ## 联系我们
 
 [business@klinko.ai](mailto:business@klinko.ai)
+
+由 [Klinko](https://github.com/klinkoai) 维护 · 更新于 2026 年 8 月 9 日

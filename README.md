@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Klinko AI Market Research Skills</h1>
-  <p><strong>Evidence-led market research for Codex and Claude Code.</strong></p>
+  <p><strong>AI market research for audience analysis, market opportunity discovery, and validation in Codex and Claude Code.</strong></p>
   <p>
     <a href="./README.md">🇺🇸 English</a> ·
     <a href="./README.zh-CN.md">🇨🇳 简体中文</a> ·
@@ -13,7 +13,7 @@
   </p>
 </div>
 
-Klinko turns public market signals into a prioritized decision: **who to serve, what they need, where the opportunity is, and what to test next**. Use the six focused Skills below directly in Codex or Claude Code through the authenticated Klinko MCP connection.
+Klinko is an **AI market research tool** and Audience Decision Engine for founders, product teams, product marketers, and growth teams. It turns public market signals into a prioritized decision: **who to serve, what they need, where the opportunity is, and what to validate next**. Use the six focused Skills below directly in Codex or Claude Code through the authenticated Klinko MCP connection.
 
 ## Install with one prompt
 
@@ -25,6 +25,13 @@ Install Klinko AI Market Research Skills from https://github.com/klinkoai/ai-mar
 
 An authorized Klinko API key is required for live research. See the [Codex guide](./docs/codex.md), [Claude Code guide](./docs/claude-code.md), and [authentication notes](./docs/authentication.md).
 
+## How Klinko market research works
+
+1. Start with a decision question about an audience, customer problem, market opportunity, startup idea, position, or content direction.
+2. Klinko organizes relevant public market signals through its authenticated MCP runtime.
+3. The selected Skill separates evidence, interpretation, contradictions, and uncertainty before ranking the available options.
+4. The result ends with one practical validation step instead of presenting an unsupported market verdict.
+
 ## Website preview
 
 ![Klinko AI Market Research Skills catalog](./assets/screenshots/skills-hub-en-current.png)
@@ -34,6 +41,8 @@ Open a focused Skill below or visit the [Klinko Skill catalog](https://klinko.ai
 ## Six core market research skills
 
 Klinko focuses its public catalog on six distinct, high-value market decisions. Each skill defines focused inputs, evaluation criteria, evidence boundaries, outputs, and a next validation step.
+
+Install from this repository. The six focused repositories below are public capability pages with decision-specific examples, FAQs, and evidence boundaries.
 
 | Skill | Decision it supports | Repository | Guide |
 | --- | --- | --- | --- |
@@ -106,6 +115,13 @@ The MCP runtime exposes `match_submit`, `match_get`, `circle_knowledge`, and `pe
 - [Machine-readable catalog](./catalog.json)
 - [Security policy](./SECURITY.md)
 
+## Research and trust
+
+- [Research methodology](https://klinko.ai/en/research-methodology/) — sources, evidence handling, limitations, and update standards
+- [About Klinko Research](https://klinko.ai/en/about/) — publisher, editorial standards, corrections, and company information
+
 ## Contact
 
 [business@klinko.ai](mailto:business@klinko.ai)
+
+Maintained by [Klinko](https://github.com/klinkoai) · Updated August 9, 2026

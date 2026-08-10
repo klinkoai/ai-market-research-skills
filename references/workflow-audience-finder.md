@@ -72,9 +72,9 @@ The result is a prioritized starting point. It answers “who deserves deeper va
 | Approach | Best used for | Key difference |
 |---|---|---|
 | Audience Finder | Choosing which broad audience to investigate first | Produces a ranked shortlist before detailed persona work |
-| Niche Audience Discovery | Finding underserved subgroups inside a broad market | Searches for coherent whitespace during deeper discovery |
-| Audience Comparator | Choosing between already named candidates | Applies the same explicit criteria to known audiences |
-| Buyer Persona Builder | Understanding how a selected audience buys | Starts after an audience has enough evidence for deeper modeling |
+| Customer Pain Point Analyst | Determining which recurring audience problem creates meaningful demand | Starts with problems rather than choosing the audience first |
+| Market Opportunity Analyst | Comparing broader audience-problem-opportunity combinations | Ranks complete market directions rather than audience segments alone |
+| Startup Idea Validator | Testing the riskiest assumptions behind one proposed offer | Starts with a defined idea and designs the next validation step |
 
 ## Evidence boundaries
 
@@ -136,8 +136,8 @@ This documentation is maintained by [Klinko Research](https://klinko.ai/en/about
 
 ## About Klinko
 
-[Klinko](https://klinko.ai/en/) is an audience decision engine that helps teams understand communities, customer needs, market opportunities, positioning, and content direction. Explore the complete [Klinko AI Market Research Skills](https://github.com/klinkoai/ai-market-research-skills).
+[Klinko](https://klinko.ai/en/) is an AI market research tool and Audience Decision Engine for target audience analysis, customer research, market opportunity discovery, validation, positioning, and content strategy. Explore the complete [Klinko AI Market Research Skills](https://github.com/klinkoai/ai-market-research-skills).
 
 ---
 
-Maintained by [Klinko](https://github.com/klinkoai) · Contact [business@klinko.ai](mailto:business@klinko.ai) · Last updated August 7, 2026
+Maintained by [Klinko](https://github.com/klinkoai) · Contact [business@klinko.ai](mailto:business@klinko.ai) · Last updated August 9, 2026
