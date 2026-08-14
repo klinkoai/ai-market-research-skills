@@ -4,17 +4,17 @@ Klinko's market research capabilities run on an authenticated remote MCP server.
 
 ## Access
 
-The current endpoint is for authorized development and QA access:
+The production endpoint is:
 
 ```text
-https://mcp-dev.klinko.ai/mcp/
+https://api.klinko.ai/mcp/
 ```
 
 The server requires a Bearer API key. Store the key locally and never commit it to a repository.
 
 ```bash
-chmod 600 ~/.klinko_mcp_qa_key
-export KLINKO_MCP_API_KEY="$(cat ~/.klinko_mcp_qa_key)"
+chmod 600 ~/.klinko_mcp_key
+export KLINKO_MCP_API_KEY="$(cat ~/.klinko_mcp_key)"
 ```
 
 Regenerating a Klinko MCP key immediately revokes the previous key. Codex and Claude Code may share one key, but both clients must be updated after rotation.
@@ -25,7 +25,7 @@ Add the following configuration to `~/.codex/config.toml`:
 
 ```toml
 [mcp_servers.klinko]
-url = "https://mcp-dev.klinko.ai/mcp/"
+url = "https://api.klinko.ai/mcp/"
 bearer_token_env_var = "KLINKO_MCP_API_KEY"
 ```
 
@@ -36,7 +36,7 @@ Restart Codex after changing the configuration.
 Export the key in the terminal that launches Codex:
 
 ```bash
-export KLINKO_MCP_API_KEY="$(cat ~/.klinko_mcp_qa_key)"
+export KLINKO_MCP_API_KEY="$(cat ~/.klinko_mcp_key)"
 codex
 ```
 
@@ -45,7 +45,7 @@ codex
 The desktop app does not inherit variables from an existing terminal. Inject the variable before reopening the app:
 
 ```bash
-launchctl setenv KLINKO_MCP_API_KEY "$(cat ~/.klinko_mcp_qa_key)"
+launchctl setenv KLINKO_MCP_API_KEY "$(cat ~/.klinko_mcp_key)"
 ```
 
 Completely quit and reopen Codex. The injected value must be set again after restarting macOS.

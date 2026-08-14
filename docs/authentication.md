@@ -5,8 +5,8 @@ Klinko MCP uses Bearer authentication. One active key can be shared by Codex and
 ## Store the key locally
 
 ```bash
-chmod 600 ~/.klinko_mcp_qa_key
-export KLINKO_MCP_API_KEY="$(cat ~/.klinko_mcp_qa_key)"
+chmod 600 ~/.klinko_mcp_key
+export KLINKO_MCP_API_KEY="$(cat ~/.klinko_mcp_key)"
 ```
 
 Never place the key in `SKILL.md`, source files, examples, screenshots, logs, prompts, or Git history.
@@ -28,4 +28,4 @@ Creating a replacement key immediately revokes the previous key. After rotation:
 
 ## Access scope
 
-The current MCP endpoint and key flow are intended for authorized development and QA users. Contact [business@klinko.ai](mailto:business@klinko.ai) for access questions.
+Production access requires a Klinko MCP API key associated with the user's account. Contact [business@klinko.ai](mailto:business@klinko.ai) for access questions.

@@ -4,17 +4,17 @@ Klinko's market research capabilities run on an authenticated remote MCP server.
 
 ## Access
 
-The current endpoint is for authorized development and QA access:
+The production endpoint is:
 
 ```text
-https://mcp-dev.klinko.ai/mcp/
+https://api.klinko.ai/mcp/
 ```
 
 Store the Bearer API key in a local file and do not commit it to a repository:
 
 ```bash
-chmod 600 ~/.klinko_mcp_qa_key
-export KLINKO_MCP_API_KEY="$(cat ~/.klinko_mcp_qa_key)"
+chmod 600 ~/.klinko_mcp_key
+export KLINKO_MCP_API_KEY="$(cat ~/.klinko_mcp_key)"
 ```
 
 Regenerating a Klinko MCP key immediately revokes the previous key. Codex and Claude Code may share one key, but both clients must be updated after rotation.
@@ -24,9 +24,9 @@ Regenerating a Klinko MCP key immediately revokes the previous key. Codex and Cl
 Add Klinko as a user-level HTTP MCP server:
 
 ```bash
-export KLINKO_MCP_API_KEY="$(cat ~/.klinko_mcp_qa_key)"
+export KLINKO_MCP_API_KEY="$(cat ~/.klinko_mcp_key)"
 claude mcp add --transport http --scope user klinko \
-  https://mcp-dev.klinko.ai/mcp/ \
+  https://api.klinko.ai/mcp/ \
   -H "Authorization: Bearer $KLINKO_MCP_API_KEY"
 ```
 

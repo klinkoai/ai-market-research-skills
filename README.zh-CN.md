@@ -20,7 +20,7 @@ Klinko 是一款 **AI 市场调研工具**，也是一套持续更新的圈层�
 把下面这段提示词复制到 Codex 或 Claude Code：
 
 ```text
-请从 https://github.com/klinkoai/ai-market-research-skills 为当前客户端安装 Klinko AI 市场研究 Skills。修改配置前先阅读仓库说明，保留我已有的 Skills 和 MCP 配置，并使用我自己的 API Key 在用户级接入带鉴权的 Klinko MCP。不要让我把 Key 发到聊天里，不要显示或记录 Key，也不要把 Key 写入项目或 Git。验证 match_submit、match_get、circle_knowledge 和 persona_knowledge 四个工具，然后说明完成了哪些配置以及目前可以使用哪些市场研究 Skills。
+请从 https://github.com/klinkoai/ai-market-research-skills 为当前客户端安装 Klinko AI 市场研究 Skills。修改配置前先阅读仓库说明，保留我已有的 Skills 和 MCP 配置，并使用我自己的 API Key 在用户级接入带鉴权的 Klinko MCP。不要让我把 Key 发到聊天里，不要显示或记录 Key，也不要把 Key 写入项目或 Git。如果当前客户端进程读取不到 KLINKO_MCP_API_KEY，请停止并说明如何在本地设置，不要索取 Key 的值。只确认 match_submit、match_get、circle_knowledge 和 persona_knowledge 四个工具已出现在工具列表中，不要执行计费调用，然后说明完成了哪些配置以及目前可以使用哪些市场研究 Skills。
 ```
 
 真实研究需要已授权的 Klinko API Key。手动配置请查看 [Codex 接入文档](./docs/codex.md)、[Claude Code 接入文档](./docs/claude-code.md)和[身份验证说明](./docs/authentication.md)。
@@ -101,4 +101,4 @@ MCP 运行层提供 `match_submit`、`match_get`、`circle_knowledge` 和 `perso
 
 [business@klinko.ai](mailto:business@klinko.ai)
 
-由 [Klinko](https://github.com/klinkoai) 维护 · 更新于 2026 年 8 月 9 日
+由 [Klinko](https://github.com/klinkoai) 维护 · 更新于 2026 年 8 月 14 日

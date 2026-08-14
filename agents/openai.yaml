@@ -9,7 +9,7 @@ dependencies:
       value: "klinko"
       description: "Authenticated Klinko AI market research runtime"
       transport: "streamable_http"
-      url: "https://mcp-dev.klinko.ai/mcp/"
+      url: "https://api.klinko.ai/mcp/"
 
 policy:
   allow_implicit_invocation: true

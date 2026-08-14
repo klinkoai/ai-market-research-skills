@@ -4,7 +4,7 @@ Use the authenticated MCP transport for every call. Never pass the API key as a 
 
 ## `match_submit`
 
-Submit an asynchronous match with `scenario`, `language`, a concise English `user_text`, and a stable unique `request_id`. Save the returned `task_id`. A typical match costs about 100 credits and is limited to about 5 calls per minute and 50 per day for each key.
+Submit an asynchronous match with `scenario`, `language`, a concise English `user_text`, and a stable unique `request_id`. Save the returned `task_id`. A match costs 100 credits and is limited to 5 calls per minute and 50 per day for each key.
 
 ## `match_get`
 
@@ -14,11 +14,11 @@ Completed match payloads contain `result.matches`. Each match commonly includes 
 
 ## `circle_knowledge`
 
-Retrieve focused audience evidence with a `query` and preferably `circle_id`; otherwise pass the exact returned `circle` value as `circle_name`. A call costs about 10 credits and is limited to about 20 calls per minute and 300 per day for each key.
+Retrieve focused audience evidence with a `query` and preferably `circle_id`; otherwise pass the exact English catalog name as `circle_name`. Billing is 540 input credits and 2,700 output credits per million tokens. The tool is limited to 20 calls per minute and 300 per day for each key.
 
 ## `persona_knowledge`
 
-Retrieve focused persona evidence with `persona_id`, `query`, and optional `circle_id`. A call costs about 10 credits and shares the evidence-retrieval limits.
+Retrieve focused persona evidence with `persona_id`, `query`, and optional `circle_id`. Billing is 540 input credits and 2,700 output credits per million tokens. The tool shares the evidence-retrieval limits.
 
 ## Evidence rules
 

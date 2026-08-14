@@ -20,7 +20,7 @@ Klinko is an **AI market research tool** and Audience Decision Engine for founde
 Copy this into Codex or Claude Code:
 
 ```text
-Install Klinko AI Market Research Skills from https://github.com/klinkoai/ai-market-research-skills for this client. Read the repository instructions before changing anything, preserve my existing Skills and MCP configuration, and connect the authenticated Klinko MCP server at user level with my own API key. Never ask me to paste the key into chat, never print it, and never write it into a project or Git repository. Verify match_submit, match_get, circle_knowledge, and persona_knowledge, then report what was configured and which market research skills are available.
+Install Klinko AI Market Research Skills from https://github.com/klinkoai/ai-market-research-skills for this client. Read the repository instructions before changing anything, preserve my existing Skills and MCP configuration, and connect the authenticated Klinko MCP server at user level with my own API key. Never ask me to paste the key into chat, never print it, and never write it into a project or Git repository. If KLINKO_MCP_API_KEY is unavailable to the client process, stop and explain how to set it locally without asking for its value. Confirm that match_submit, match_get, circle_knowledge, and persona_knowledge are listed without running billable calls, then report what was configured and which market research skills are available.
 ```
 
 An authorized Klinko API key is required for live research. See the [Codex guide](./docs/codex.md), [Claude Code guide](./docs/claude-code.md), and [authentication notes](./docs/authentication.md).
@@ -124,4 +124,4 @@ The MCP runtime exposes `match_submit`, `match_get`, `circle_knowledge`, and `pe
 
 [business@klinko.ai](mailto:business@klinko.ai)
 
-Maintained by [Klinko](https://github.com/klinkoai) · Updated August 9, 2026
+Maintained by [Klinko](https://github.com/klinkoai) · Updated August 14, 2026

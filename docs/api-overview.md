@@ -2,10 +2,10 @@
 
 Klinko's six core AI market research skills use an authenticated remote MCP runtime. Codex and Claude Code are the validated clients.
 
-## Current development endpoint
+## Production endpoint
 
 ```text
-https://mcp-dev.klinko.ai/mcp/
+https://api.klinko.ai/mcp/
 ```
 
 Authentication uses `Authorization: Bearer <api_key>`.
@@ -14,10 +14,10 @@ Authentication uses `Authorization: Bearer <api_key>`.
 
 | Tool | Purpose | Typical cost | Key-level limit |
 | --- | --- | ---: | --- |
-| `match_submit` | Submit an asynchronous audience match | about 100 credits | 5/minute, 50/day |
+| `match_submit` | Submit an asynchronous audience match | 100 credits | 5/minute, 50/day |
 | `match_get` | Read match status and results | free | 60/minute |
-| `circle_knowledge` | Retrieve evidence for a circle | about 10 credits | 20/minute, 300/day |
-| `persona_knowledge` | Retrieve evidence for a persona | about 10 credits | 20/minute, 300/day |
+| `circle_knowledge` | Retrieve evidence for a circle | 540 input / 2,700 output credits per 1M tokens | 20/minute, 300/day |
+| `persona_knowledge` | Retrieve evidence for a persona | 540 input / 2,700 output credits per 1M tokens | 20/minute, 300/day |
 
 Matching usually takes one to three minutes. A workflow should retain the returned `task_id`, poll with `match_get`, and carry returned `circle_id` or `persona_id` values into later evidence requests.
 

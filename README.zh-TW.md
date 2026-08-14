@@ -14,7 +14,7 @@ Klinko 是一款 **AI 市場調研工具**，也是一套持續更新的受眾�
 ## 用一句提示詞安裝
 
 ```text
-請從 https://github.com/klinkoai/ai-market-research-skills 為目前客戶端安裝 Klinko AI 市場研究 Skills。修改設定前先閱讀倉庫說明，保留現有 Skills 與 MCP 設定，並使用我自己的 API Key 在使用者層級接入帶鑑權的 Klinko MCP。不要讓我把 Key 貼到聊天中，不要顯示或記錄 Key，也不要把 Key 寫入專案或 Git。驗證四個 Klinko 工具，然後說明目前可以使用哪些市場研究 Skills。
+請從 https://github.com/klinkoai/ai-market-research-skills 為目前客戶端安裝 Klinko AI 市場研究 Skills。修改設定前先閱讀倉庫說明，保留現有 Skills 與 MCP 設定，並使用我自己的 API Key 在使用者層級接入帶鑑權的 Klinko MCP。不要讓我把 Key 貼到聊天中，不要顯示或記錄 Key，也不要把 Key 寫入專案或 Git。如果目前客戶端程序讀取不到 KLINKO_MCP_API_KEY，請停止並說明如何在本機設定，不要索取 Key 的值。只確認 match_submit、match_get、circle_knowledge 與 persona_knowledge 已出現在工具清單中，不要執行計費呼叫，然後說明目前可以使用哪些市場研究 Skills。
 ```
 
 真實研究需要已授權的 Klinko API Key。手動設定請查看 [Codex 接入文件](./docs/codex.md)、[Claude Code 接入文件](./docs/claude-code.md)與[身分驗證說明](./docs/authentication.md)。
@@ -62,4 +62,4 @@ Klinko 將公開目錄聚焦到 6 個邊界清楚、價值最高的市場決策�
 
 [business@klinko.ai](mailto:business@klinko.ai)
 
-由 [Klinko](https://github.com/klinkoai) 維護 · 更新於 2026 年 8 月 9 日
+由 [Klinko](https://github.com/klinkoai) 維護 · 更新於 2026 年 8 月 14 日
